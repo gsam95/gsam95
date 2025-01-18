@@ -3,6 +3,7 @@
 
 ## Hi there 👋
 I'm Grace, a Data Science professional and Public Interest Tech enthusiast based in the US.
+
 LinkedIn: https://www.linkedin.com/in/grace-george-sam/
 Pronouns: she/her
 
