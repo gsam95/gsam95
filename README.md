@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/4c1cf67f-d450-4a37-a1b0-0f2c39ce0979)###### Portfolio
+###### Portfolio
 ###### Public Interest Tech | Public Policy | Tech for Social Good | Data Science
 
 
