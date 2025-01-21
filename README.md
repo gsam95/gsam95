@@ -1,5 +1,10 @@
-#### Portfolio
-#### Public Interest Tech | Public Policy | Tech for Social Good | Data Science
+###### Portfolio
+###### Public Interest Tech | Public Policy | Tech for Social Good | Data Science
+
+
+[Project Repository Skill Showcase](#project-repository-skill-showcase) | [Bio](#bio) | [Relevant Coursework: Academic Training](#relevant-coursework-academic-training)
+
+
 
 ## Hi there 👋
 I'm Grace, a Data Science professional and Public Interest Tech enthusiast based in the US.
@@ -9,6 +14,7 @@ LinkedIn: https://www.linkedin.com/in/grace-george-sam/
 Pronouns: she/her
 
 
+
 #### ✨About me✨ in 30 seconds
 Economist --> Data Science --> Public Policy
 - The Beginning: Seasoned Data Science professional with over 5 years experience
@@ -16,18 +22,44 @@ Economist --> Data Science --> Public Policy
 - The Now: Carnegie Mellon University - Public Policy: Data Analytics (MSPPM-DA)
 
   
-## Table of Contents
-- [Project Repository: Skill showcase](#project-repository-skills-showcase)
-- [About me in 30 seconds](#✨-about-me-✨-in-30-seconds)
-- [Bio](#bio)
-- [Relevant Coursework: Academic Training](#relevant-coursework-academic-training)
-
-  
 #### Project Repository: Skill Showcase
 
-[GIS](#gis) | [Policy Analysis](#policy-analysis) | [Storytelling with Data](storytelling-with-data) |  
+[Machine Learning](#machine-learning) | [LLMs & Agent Based Modeling](#llms-&-agent-based-modeling) 
+[GIS](#gis) | [Data Visualization](#data-visualization) | [Exploratory Data Analysis](#exploratory-data-analysis) | [Storytelling with Data](#storytelling-with-data)
+[Policy Analysis](#policy-analysis) | [Policy Innovation](#policy-innovation) |  
   
+1. Machine Learning
+Link -
 
+
+2. LLMs & Agent Based Modeling
+Upcoming...
+
+3. GIS
+Link -
+
+
+4. Data Visualization
+Link -
+
+
+5. Exploartory Data Analysis
+Link -
+
+
+6. Storytelling with Data
+Link -
+
+
+7. Policy Analysis
+Link -
+
+
+8. Policy Evaluation
+Link -
+
+
+   
   
 #### Bio  
 
