@@ -1,8 +1,9 @@
-###### Portfolio
+![image](https://github.com/user-attachments/assets/4c1cf67f-d450-4a37-a1b0-0f2c39ce0979)###### Portfolio
 ###### Public Interest Tech | Public Policy | Tech for Social Good | Data Science
 
 
 [Project Repository Skill Showcase](#project-repository-skill-showcase) | [Bio](#bio) | [Relevant Coursework: Academic Training](#relevant-coursework-academic-training)
+
 
 
 
@@ -36,26 +37,38 @@ Link -
 Upcoming...
 
 3. GIS
-Link -
+
+Link - https://arcg.is/1Pzij81
+
+Skills - Geographic concepts (world coordinate systems, map scale/projections, sea level/elevation), Government-provided map infrastructure (TIGER maps, census data, satellite and aerial photo images, local government cadastral maps), Map design (cartography, interactive maps, map animations, and Web-based GIS), Geodatabases (importing spatial and attribute data, geocodes, table joins, data aggregation, and map queries), Creation of new spatial data (digitizing, geocoding, and dissolving vector features), Spatial data processing (clipping, merging, appending, joining, dissolving), Spatial analysis (proximity analysis, risk surface, site suitability, spatial data mining)
+
+Project Description - Mental health challenges among children and adolescents are a growing concern in the United States.  The Pennsylvania Student Assistance Program (SAP) mobilizes school resources to remove barriers to learning or success. The primary goal of the program is to help students overcome these barriers so that they may achieve, advance, and remain in school.5 SAP's reach and efficiency can be enhanced by employing data-driven tools. 
+
+The story illustrates how spatial analysis tools can be used to proactively identify areas that can benefit from increased SAP interventions. The ‘Need Index’ is created using distance from parks (green spaces are linked to improved mental health, reduced stress, and better cognitive functioning), crime incidence (exposure to crime in neighborhoods can increase stress, anxiety, and trauma among students) and divorce data (family stability often plays a significant role in a child’s mental health and academic performance) at census tract level.
 
 
 4. Data Visualization
+
 Link -
 
 
 5. Exploartory Data Analysis
+
 Link -
 
 
 6. Storytelling with Data
+
 Link -
 
 
 7. Policy Analysis
+
 Link -
 
 
 8. Policy Evaluation
+
 Link -
 
 
