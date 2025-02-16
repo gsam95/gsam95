@@ -8,14 +8,11 @@
 This includes a taste of my talents with data analytics, problem solutioning, AI and coding, excluding my work with sensitive data. Most of the content comes from deliverables I produced for classes in my Masters, though some may be for fun. Browse through the navigation tabs to see the good stuff. I hope you enjoy! 😊
 <br/>
 <br/>
-- Visit my [LinkedIn](https://www.linkedin.com/in/grace-george-sam/)
+Visit my [LinkedIn](https://www.linkedin.com/in/grace-george-sam/)
 <br/>
+Look at my [Resume](/Grace_Sam_Resume_2025.pdf)
 <br/>
-- Look at my [Resume](/Grace_Sam_Resume_2025.pdf)
-<br/>
-<br/>
-- Look at [Eval-AI](https://chrisbori.github.io/My-Online-Portfolio/eval-ai), a product we developed to enable GenAI compliance for organizations & users
-<br/>
+Look at [Eval-AI](https://chrisbori.github.io/My-Online-Portfolio/eval-ai), a product we developed to enable GenAI compliance for organizations & users
 <br/>
 <br/>
 ## About me
