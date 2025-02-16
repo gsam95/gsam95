@@ -1,4 +1,7 @@
-# [My-Online-Portfolio](/gsam95/gsam95) <br/> <br/>
+# [My-Online-Portfolio](/gsam95/gsam95) <br/>
+
+[About Me](#about-me) |[Project Repository - Skill Showcase](#project-repository) | [Relevant Coursework: Academic Training](#relevant-coursework-academic-training)
+
 
 #### Welcome to my online portfolio!
 <br/>
@@ -23,3 +26,8 @@ Hi, I’m Grace! I’m an economist turned data scientist, passionate about usin
 
 ## Project Repository
 | [GIS](gsam95/Projects/GI.md) | [Data Visualization & Storytelling with Data](/Projects/EDA) | [Machine Learning](/Projects/ML) | [LLMs & Agent Based Modeling](/Projects/LLMs) |  [Policy Analysis & Writing](/Projects/Policy-Analysis) | [Innovation](/Projects/Innovation) |
+
+<br/>
+<br/>
+
+## Relevant Coursework: Academic Training
