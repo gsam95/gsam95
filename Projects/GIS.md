@@ -1,11 +1,6 @@
 # [My-Online-Portfolio](/gsam95)
 
 
-
-| [Home Page](/gsam95)  | [GIS](/Projects/GIS) | [Data Visualization & Storytelling with Data](/Projects/EDA) | [Machine Learning](/Projects/ML) | [LLMs & Agent Based Modeling](/Projects/llms-&-agent-based-modeling) |  [Policy Analysis & Writing](/Projects/policy-analysis) | [Innovation](/Projects/innovation) |
-
-
-
 [Showcasing my GIS skills in this ArcGIS Storymap](https://arcg.is/1Pzij81)
 
 
@@ -19,3 +14,4 @@ Geographic concepts (world coordinate systems, map scale/projections, sea level/
 
 
 
+| [Home Page](/gsam95)  | [GIS](/Projects/GIS) | [Data Visualization & Storytelling with Data](/Projects/EDA) | [Machine Learning](/Projects/ML) | [LLMs & Agent Based Modeling](/Projects/llms-&-agent-based-modeling) |  [Policy Analysis & Writing](/Projects/policy-analysis) | [Innovation](/Projects/innovation) |
