@@ -1,11 +1,7 @@
 [My-Online-Portfolio](/gsam95)
 
-| --- | --- |
-| [Home Page](/gsam95)  | [GIS](/Projects/GIS) | [Data Visualization & Storytelling with Data](/Projects/EDA) |
 
-| [Machine Learning](/Projects/ML) | [LLMs & Agent Based Modeling](/Projects/llms-&-agent-based-modeling) | 
-
-| [Policy Analysis & Writing](/Projects/policy-analysis) | [Innovation](/Projects/innovation) |
+| [Home Page](/gsam95)  | [GIS](/Projects/GIS) | [Data Visualization & Storytelling with Data](/Projects/EDA) | [Machine Learning](/Projects/ML) | [LLMs & Agent Based Modeling](/Projects/llms-&-agent-based-modeling) |  [Policy Analysis & Writing](/Projects/policy-analysis) | [Innovation](/Projects/innovation) |
 
 Welcome to my online portfolio!
 
