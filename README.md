@@ -1,3 +1,27 @@
+My-Online-Portfolio
+
+Welcome to my online portfolio!
+
+This includes a taste of my talents with data analytics, problem solutioning, AI and coding, excluding my work with sensitive data. Most of the content comes from deliverables I produced for classes in my Masters, though some may be for fun. Browse through the navigation tabs to see the good stuff. I hope you enjoy! 😊
+
+Visit my LinkedIn
+Visit my data story with Puerto Rico’s Act 22
+Look at my Resume
+Look at Eval-AI, our GenAI compliance framework
+About me
+
+
+
+I’m a 
+
+
+
+
+
+
+
+
+
 ###### Portfolio
 ###### Public Interest Tech | Public Policy | Tech for Social Good | Data Science
 
@@ -28,6 +52,10 @@ Economist --> Data Science --> Public Policy
 [Machine Learning](#machine-learning) | [LLMs & Agent Based Modeling](#llms-&-agent-based-modeling) 
 [GIS](#gis) | [Data Visualization](#data-visualization) | [Exploratory Data Analysis](#exploratory-data-analysis) | [Storytelling with Data](#storytelling-with-data)
 [Policy Analysis](#policy-analysis) | [Policy Innovation](#policy-innovation) |  
+
+  Optimization - homelessness
+  
+  Scopeathon
   
 1. Machine Learning
 Link -
