@@ -17,7 +17,7 @@ Look at my [Resume](/Grace_Sam_Resume_2025.pdf)
 Look at [Eval-AI](), a product we developed to enable GenAI compliance for organizations & users
 
 ## About me
-<img src=![WhatsApp Image 2023-08-04 at 1 23 30 PM](https://github.com/user-attachments/assets/b0087b08-4696-4015-901c-88452da9a26f) width="50" height="50">
+<img src="https://github.com/user-attachments/assets/b0087b08-4696-4015-901c-88452da9a26f" alt="WhatsApp Image" width="400">
 
 
 
