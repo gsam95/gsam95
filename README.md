@@ -16,7 +16,7 @@ Visit my [LinkedIn](https://www.linkedin.com/in/grace-george-sam/)
 
 Look at my [Resume](/Grace_Sam_Resume_2025.pdf)
 
-Look at [Eval-AI](), a product we developed to enable GenAI compliance for organizations & users
+Look at [Eval-AI](https://chrisbori.github.io/My-Online-Portfolio/eval-ai), a product we developed to enable GenAI compliance for organizations & users
 
 
 ## About me
