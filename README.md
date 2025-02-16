@@ -7,7 +7,7 @@
 #### Welcome to my online portfolio!
 <br/>
 
-<br/> Visit my [LinkedIn](https://www.linkedin.com/in/grace-george-sam/)
+Visit my [LinkedIn](https://www.linkedin.com/in/grace-george-sam/)
 
 Look at my [Resume](/Grace_Sam_Resume_2025.pdf)
 
