@@ -11,6 +11,7 @@ Welcome to my online portfolio!
 
 This includes a taste of my talents with data analytics, problem solutioning, AI and coding, excluding my work with sensitive data. Most of the content comes from deliverables I produced for classes in my Masters, though some may be for fun. Browse through the navigation tabs to see the good stuff. I hope you enjoy! 😊
 
+
 Visit my [LinkedIn](https://www.linkedin.com/in/grace-george-sam/)
 
 Look at my [Resume](/Grace_Sam_Resume_2025.pdf)
@@ -20,6 +21,7 @@ Look at [Eval-AI](), a product we developed to enable GenAI compliance for organ
 
 ## About me
 <img src="https://github.com/user-attachments/assets/b0087b08-4696-4015-901c-88452da9a26f" alt="WhatsApp Image" width="400">
+
 
 
 
