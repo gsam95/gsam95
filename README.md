@@ -2,6 +2,7 @@
 
 [About Me](#about-me) | [Project Repository - Skill Showcase](#project-repository) | [Relevant Coursework: Academic Training](#relevant-coursework-academic-training)
 
+<br/>
 
 #### Welcome to my online portfolio!
 <br/>
