@@ -6,7 +6,6 @@
 
 #### Welcome to my online portfolio!
 <br/>
-This includes a taste of my talents with data analytics, problem solutioning, AI and coding, excluding my work with sensitive data. Most of the content comes from deliverables I produced for classes in my Masters, though some may be for fun. Browse through the navigation tabs to see the good stuff. I hope you enjoy! 😊 
 
 <br/> Visit my [LinkedIn](https://www.linkedin.com/in/grace-george-sam/)
 
