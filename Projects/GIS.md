@@ -1,4 +1,4 @@
-# [My-Online-Portfolio](/gsam95)
+# [My-Online-Portfolio](/gsam95/gsam95)
 
 
 [Showcasing my GIS skills in this ArcGIS Storymap](https://arcg.is/1Pzij81)
