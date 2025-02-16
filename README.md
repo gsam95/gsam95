@@ -2,7 +2,7 @@
 
 
 
-| [Home Page](/gsam95)  | [GIS](gsam95/Projects/GI.md) | [Data Visualization & Storytelling with Data](/Projects/EDA) | [Machine Learning](/Projects/ML) | [LLMs & Agent Based Modeling](/Projects/LLMs) |  [Policy Analysis & Writing](/Projects/Policy-Analysis) | [Innovation](/Projects/Innovation) |
+| [GIS](gsam95/Projects/GI.md) | [Data Visualization & Storytelling with Data](/Projects/EDA) | [Machine Learning](/Projects/ML) | [LLMs & Agent Based Modeling](/Projects/LLMs) |  [Policy Analysis & Writing](/Projects/Policy-Analysis) | [Innovation](/Projects/Innovation) |
 
 
 
