@@ -1,7 +1,10 @@
 [My-Online-Portfolio](/gsam95)
 
 
+
 | [Home Page](/gsam95)  | [GIS](/Projects/GIS) | [Data Visualization & Storytelling with Data](/Projects/EDA) | [Machine Learning](/Projects/ML) | [LLMs & Agent Based Modeling](/Projects/llms-&-agent-based-modeling) |  [Policy Analysis & Writing](/Projects/policy-analysis) | [Innovation](/Projects/innovation) |
+
+
 
 Welcome to my online portfolio!
 
@@ -13,13 +16,12 @@ Look at my [Resume](/Grace_Sam_Resume_2025.pdf)
 
 Look at [Eval-AI](), a product we developed to enable GenAI compliance for organizations & users
 
-About me
+#### About me
 ![WhatsApp Image 2023-08-04 at 1 23 30 PM](https://github.com/user-attachments/assets/b0087b08-4696-4015-901c-88452da9a26f)
 
 
 
-I’m a 
-
+Hi, I’m Grace! I’m an economist turned data scientist, passionate about using data and technology to drive social impact. With a strong foundation in economics and advanced data analytics, I love tackling complex problems—building models, uncovering insights, and translating them into meaningful solutions. Whether it’s machine learning, data visualization, or policy innovation, I bring curiosity, rigor, and a collaborative spirit to everything I do. I'm all about bridging the gap between data and real-world change. Let’s connect and create something impactful!
 
 
 
