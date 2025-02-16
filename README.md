@@ -1,6 +1,6 @@
 # [My-Online-Portfolio](/gsam95/gsam95) <br/>
 
-[About Me](#about-me) |[Project Repository - Skill Showcase](#project-repository) | [Relevant Coursework: Academic Training](#relevant-coursework-academic-training)
+[About Me](#about-me) | [Project Repository - Skill Showcase](#project-repository) | [Relevant Coursework: Academic Training](#relevant-coursework-academic-training)
 
 
 #### Welcome to my online portfolio!
