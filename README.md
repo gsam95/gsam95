@@ -26,7 +26,7 @@ Hi, I’m Grace! I’m an economist turned data scientist, passionate about usin
 <br/>
 
 ## Project Repository
-| [GIS](https://github.com/gsam95/gsam95/blob/main/Projects/GIS.md) | [Data Visualization & Storytelling with Data](/Projects/EDA) | [Machine Learning](/Projects/ML) | [LLMs & Agent Based Modeling](/Projects/LLMs) |  [Policy Analysis & Writing](/Projects/Policy-Analysis) | [Innovation](/Projects/Innovation) |
+| [GIS](https://github.com/gsam95/gsam95/blob/main/ProjectGIS.md) | [Data Visualization & Storytelling with Data](/Projects/EDA) | [Machine Learning](/Projects/ML) | [LLMs & Agent Based Modeling](/Projects/LLMs) |  [Policy Analysis & Writing](/Projects/Policy-Analysis) | [Innovation](/Projects/Innovation) |
 
 <br/>
 <br/>
