@@ -1,4 +1,4 @@
-# [My-Online-Portfolio](/gsam95/gsam95) <br/>
+# [My-Online-Portfolio](https://gsam95.github.io/gsam95/) <br/>
 
 [About Me](#about-me) | [Project Repository - Skill Showcase](#project-repository) | [Relevant Coursework: Academic Training](#relevant-coursework-academic-training)
 
