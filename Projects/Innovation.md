@@ -22,3 +22,8 @@ I'm passionate about blending data analytics with creative, human-centered desig
  
 Both projects underscore my ability to innovate using lean startup methodologies, iterative design, and data-driven problem-solving, all aimed at enhancing user experience and delivering public good.
 
+</br>
+</br>
+
+### Binarization Tool
+
