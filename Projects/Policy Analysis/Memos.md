@@ -20,5 +20,5 @@ These skills, combined with my background in data analytics and economics, allow
 ### Memo / Writing Samples 
 </br>
 
-1. [Stakeholder Management & Weighing Policy Priorities](https://github.com/gsam95/gsam95/Projects/Policy Analysis/Need assessment & stakeholder management.docx)
+1. [Stakeholder Management & Weighing Policy Priorities](https://github.com/gsam95/gsam95/Projects/Policy-Analysis/Need-assessment-&-stakeholder-management.docx)
 </br>
