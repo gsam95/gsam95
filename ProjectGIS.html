@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Online Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        a {
+            color: #0078D4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .nav-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .nav-links a {
+            background: #0078D4;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .nav-links a:hover {
+            background: #005A9E;
+        }
+        .content {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+            margin-top: 20px;
+        }
+        .skills {
+            background: #eef;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <h1><a href="/gsam95/gsam95">My Online Portfolio</a></h1>
+
+        <div class="nav-links">
+            <a href="https://gsam95.github.io/gsam95/ProjectGIS.html">GIS</a>
+            <a href="/Projects/EDA">Data Visualization & Storytelling with Data</a>
+            <a href="/Projects/Innovation">Innovation</a>
+            <a href="/Projects/LLMs">LLMs & Agent-Based Modeling</a>
+            <a href="/Projects/ML">Machine Learning</a>
+            <a href="/Projects/Policy-Analysis">Policy Analysis & Writing</a>
+            <a href="#">Pythonic Coding</a>
+        </div>
+
+        <h2><a href="https://arcg.is/1Pzij81">Showcasing my GIS skills using ArcGIS Storymap</a></h2>
+
+        <p>The story illustrates how spatial analysis tools can be used to proactively identify areas that can benefit from increased State intervention.</p>
+
+        <p>A ‘Need Index’ is created using:</p>
+        <ul>
+            <li>Distance from parks (green spaces are linked to improved mental health, reduced stress, and better cognitive functioning).</li>
+            <li>Crime incidence (exposure to crime in neighborhoods can increase stress, anxiety, and trauma among students).</li>
+            <li>Divorce data (family stability often plays a significant role in a child’s mental health and academic performance) at the census tract level.</li>
+        </ul>
+
+        <iframe src="https://storymaps.arcgis.com/stories/285fdbbd0f3e404592bb207a1de2bbe5?header" allowfullscreen allow="geolocation"></iframe>
+
+        <div class="skills">
+            <h3>Skills</h3>
+            <p>Geographic concepts (world coordinate systems, map scale/projections, sea level/elevation), Government-provided map infrastructure (TIGER maps, census data, satellite and aerial photo images, local government cadastral maps), Map design (cartography, interactive maps, map animations, and Web-based GIS), Geodatabases (importing spatial and attribute data, geocodes, table joins, data aggregation, and map queries), Creation of new spatial data (digitizing, geocoding, and dissolving vector features), Spatial data processing (clipping, merging, appending, joining, dissolving), Spatial analysis (proximity analysis, risk surface, site suitability, spatial data mining).</p>
+        </div>
+    </div>
+
+</body>
+</html>
