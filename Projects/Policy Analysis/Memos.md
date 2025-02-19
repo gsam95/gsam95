@@ -16,6 +16,6 @@ The policy memos showcased here leveraged a structured 8-step policy analysis pr
 These skills, combined with my background in data analytics and economics, allow me to integrate evidence-based research with practical policymaking strategies.
 </br>
 </br>
-### Memo/Writing Samples </br>
-1. [Resume](/gsam95/Projects/Policy Analysis/Need assessment & stakeholder management.docx)
+### Memo / Writing Samples 
+1. [Stakeholder Management & Weighing Policy Priorities](https://github.com/gsam95/gsam95/Projects/Policy Analysis/Need assessment & stakeholder management.docx)
 2.  </br>
