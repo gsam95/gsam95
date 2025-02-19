@@ -3,7 +3,10 @@
 
 </br></br>
 
-## Innovation <img src="https://github.com/user-attachments/assets/b46af43a-a43e-458e-8dbb-2093945f9e4c" alt="WhatsApp Image" width="400"> </br></br> 
+## Innovation 
+<img src="https://github.com/user-attachments/assets/b46af43a-a43e-458e-8dbb-2093945f9e4c" alt="WhatsApp Image" width="400">
+
+</br></br> 
 
 
 ### [Eval-AI](https://chrisbori.github.io/My-Online-Portfolio/eval-ai)
