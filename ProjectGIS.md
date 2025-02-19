@@ -1,4 +1,7 @@
-# [My-Online-Portfolio](/gsam95/gsam95)  </br></br>
+# [My-Online-Portfolio](/gsam95/gsam95)  
+| [GIS](https://github.com/gsam95/gsam95/blob/main/ProjectGIS.md) | [GIS](https://gsam95.github.io/gsam95/ProjectGIS.html) | [Data Visualization & Storytelling with Data](/Projects/EDA) | [Innovation](/Projects/Innovation)| [LLMs & Agent Based Modeling](/Projects/LLMs) | [Machine Learning](/Projects/ML) | [Policy Analysis & Writing](/Projects/Policy-Analysis) | [Pythonic Coding]() |
+
+</br></br>
 
 ## [Showcasing my GIS skills using ArcGIS Storymap](https://arcg.is/1Pzij81)   </br></br>
 
@@ -19,4 +22,4 @@ Geographic concepts (world coordinate systems, map scale/projections, sea level/
 
 
 
-| [Home Page](/gsam95)  | [GIS](/Projects/GIS) | [Data Visualization & Storytelling with Data](/Projects/EDA) | [Machine Learning](/Projects/ML) | [LLMs & Agent Based Modeling](/Projects/llms-&-agent-based-modeling) |  [Policy Analysis & Writing](/Projects/policy-analysis) | [Innovation](/Projects/innovation) |
+
