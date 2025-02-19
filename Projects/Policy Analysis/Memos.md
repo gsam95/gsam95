@@ -20,11 +20,11 @@ These skills, combined with my background in data analytics and economics, allow
 ### Memo / Writing Samples 
 </br>
 
-1. [Stakeholder Management & Weighing Policy Priorities](/ProjPANeedAssessStakeholdMgmt.docx)
-2. [Rental Subsidy](/ProjPARentalSubsidy.docx)
-3. [Low-Income Home Energy Assistance - Design alternatives](/ProjPALIEnergyAssistance.docx)
-   a. Appendix  - [Alternative 1](/ProjPALIHEAPAppendixAlternative1.xlsx) [Alternative 2](/ProjPALIHEAPAppendixAlternative2.xlsx) [Alternative 3](/ProjPALIHEAPAppendixAlternative3.xlsx) [Methodology](/ProjPALIHEAPAppendixMethodology.docx)
-   b. [Press Release](/ProjPALIHEAPPressrelease.docx)
-   c. [Q&A](/ProjPALIHEAPQ&AforInternalUse.docx) 
-5. [Alleviating College Debt Burden](/ProjPACollegeDebtBurden.docx)
-6. [Regulating Gasoline Use](/ProjPAGasolineUse.docx)
+1. [Stakeholder Management & Weighing Policy Priorities](/ProjPANeedAssessStakeholdMgmt.docx) </br>
+2. [Rental Subsidy](/ProjPARentalSubsidy.docx) </br>
+3. [Low-Income Home Energy Assistance - Design alternatives](/ProjPALIEnergyAssistance.docx) </br>
+   a. Appendix  - [Alternative 1](/ProjPALIHEAPAppendixAlternative1.xlsx) [Alternative 2](/ProjPALIHEAPAppendixAlternative2.xlsx) [Alternative 3](/ProjPALIHEAPAppendixAlternative3.xlsx) [Methodology](/ProjPALIHEAPAppendixMethodology.docx) </br>
+   b. [Press Release](/ProjPALIHEAPPressrelease.docx) </br>
+   c. [Q&A](/ProjPALIHEAPQ&AforInternalUse.docx)  </br>
+5. [Alleviating College Debt Burden](/ProjPACollegeDebtBurden.docx) </br>
+6. [Regulating Gasoline Use](/ProjPAGasolineUse.docx) </br>
