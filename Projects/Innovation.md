@@ -7,6 +7,10 @@
 
 
 ### [Eval-AI](https://chrisbori.github.io/My-Online-Portfolio/eval-ai)
+</br>
+
+<img src="https://github.com/user-attachments/assets/b46af43a-a43e-458e-8dbb-2093945f9e4c" alt="WhatsApp Image" width="400">
+</br>
 I'm passionate about blending data analytics with creative, human-centered design to drive real-world impact. In the Eval-AI project, we built a comprehensive compliance testing framework for generative AI — an initiative that sharpened my skills in agile development, red-teaming, and technical evaluation, ensuring that advanced models align with ethical and regulatory standards. 
 </br>
 </br>
