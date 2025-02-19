@@ -11,7 +11,7 @@ From exploring human cognition in visualization design to experimenting with cut
 
 </br></br>
 
-<img src="https://github.com/user-attachments/assets/439c81e2-2e7e-4b6d-8546-e21def67d283" alt="WhatsApp Image" width="700">
+<img src="https://github.com/user-attachments/assets/439c81e2-2e7e-4b6d-8546-e21def67d283" alt="WhatsApp Image" width="800">
 
 </br></br>
 
