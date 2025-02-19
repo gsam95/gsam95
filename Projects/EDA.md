@@ -7,6 +7,10 @@
 
 </br></br>
 
+### 
+
+</br>
+
 From exploring human cognition in visualization design to experimenting with cutting-edge tools, I’ve honed the skills to translate intricate insights into visuals that engage audiences and drive impact. Here's a snippet of my journey!
 
 </br></br>
@@ -15,6 +19,6 @@ From exploring human cognition in visualization design to experimenting with cut
 
 </br></br>
 
-[Critiquing Visualizations] (https://gsam95.github.io/Data-Stories/)
+### [Critiquing Visualizations] (https://gsam95.github.io/Data-Stories/)
 
 
