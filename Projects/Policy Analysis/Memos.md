@@ -23,7 +23,7 @@ These skills, combined with my background in data analytics and economics, allow
 1. [Stakeholder Management & Weighing Policy Priorities](/ProjPANeedAssessStakeholdMgmt.docx) </br>
 2. [Rental Subsidy](/ProjPARentalSubsidy.docx) </br>
 3. [Low-Income Home Energy Assistance - Design alternatives](/ProjPALIEnergyAssistance.docx) </br>
-   a. Appendix  - [Alternative 1](/ProjPALIHEAPAppendixAlternative1.xlsx) [Alternative 2](/ProjPALIHEAPAppendixAlternative2.xlsx) [Alternative 3](/ProjPALIHEAPAppendixAlternative3.xlsx) [Methodology](/ProjPALIHEAPAppendixMethodology.docx) </br>
+   a. Appendix  - [Alternative 1](/ProjPALIHEAPAppendixAlternative1.xlsx)   [Alternative 2](/ProjPALIHEAPAppendixAlternative2.xlsx)   [Alternative 3](/ProjPALIHEAPAppendixAlternative3.xlsx)   [Methodology](/ProjPALIHEAPAppendixMethodology.docx) </br>
    b. [Press Release](/ProjPALIHEAPPressrelease.docx) </br>
    c. [Q&A](/ProjPALIHEAPQ&AforInternalUse.docx)  </br>
 5. [Alleviating College Debt Burden](/ProjPACollegeDebtBurden.docx) </br>
