@@ -19,6 +19,6 @@ From exploring human cognition in visualization design to experimenting with cut
 
 </br></br>
 
-### [Critiquing Visualizations] (https://gsam95.github.io/Data-Stories/)
+### [Critiquing Visualizations](https://gsam95.github.io/Data-Stories/)
 
 
