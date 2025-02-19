@@ -28,7 +28,7 @@ Hi, I’m Grace! I’m an economist turned data scientist, passionate about usin
 (https://chrisbori.github.io/My-Online-Portfolio/eval-ai)
 
 ## Project Repository
-| [GIS-md](https://gsam95.github.io/gsam95/ProjectGIS.md)| [GIS-html](https://gsam95.github.io/gsam95/ProjectGIS.html) | [Data Visualization & Storytelling with Data](/Projects/EDA) | [Innovation](/Projects/Innovation)| [LLMs & Agent Based Modeling](/Projects/LLMs) | [Machine Learning](/Projects/ML) | [Policy Analysis & Writing](https://gsam95.github.io/gsam95/ProjectPolicyAnalysis.html) | [Pythonic Coding]() |
+| [GIS](https://gsam95.github.io/gsam95/ProjectGIS.html) | [Data Visualization & Storytelling with Data](/Projects/EDA) | [Innovation](/Projects/Innovation)| [LLMs & Agent Based Modeling](/Projects/LLMs) | [Machine Learning](/Projects/ML) | [Policy Analysis & Writing](https://gsam95.github.io/gsam95/ProjectPolicyAnalysis.html) | [Pythonic Coding]() |
 
 
 Hackathon
