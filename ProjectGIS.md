@@ -4,6 +4,7 @@
 
 The story illustrates how spatial analysis tools can be used to proactively identify areas that can benefit from increased State intervention. 
 </br>
+</br>
 A ‘Need Index’ is created using distance from parks (green spaces are linked to improved mental health, reduced stress, and better cognitive functioning), crime incidence (exposure to crime in neighborhoods can increase stress, anxiety, and trauma among students) and divorce data (family stability often plays a significant role in a child’s mental health and academic performance) at census tract level.
 </br>
 </br>
