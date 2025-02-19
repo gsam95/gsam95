@@ -25,7 +25,6 @@ Hi, I’m Grace! I’m an economist turned data scientist, passionate about usin
 <br/>
 <br/>
 
-(https://chrisbori.github.io/My-Online-Portfolio/eval-ai)
 
 ## Project Repository
 | [GIS](https://gsam95.github.io/gsam95/ProjectGIS.html) | [Data Visualization & Storytelling with Data](/Projects/EDA) | [Innovation](/Projects/Innovation)| [LLMs & Agent Based Modeling](/Projects/LLMs) | [Machine Learning](/Projects/ML) | [Policy Analysis & Writing](https://gsam95.github.io/gsam95/ProjectPolicyAnalysis.html) | [Pythonic Coding]() |
@@ -44,5 +43,3 @@ RIDC
 <br/>
 
 
-
-<iframe src="https://storymaps.arcgis.com/stories/285fdbbd0f3e404592bb207a1de2bbe5?header" width="100%" height="500px" frameborder="0" allowfullscreen allow="geolocation"></iframe>
