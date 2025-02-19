@@ -3,15 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Online Portfolio</title>
+    <title>My Online Portfolio - Policy Analysis</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            margin: 20px;
+            margin: 40px;
             padding: 20px;
+            background-color: #f9f9f9;
         }
-        h2 {
+        h1, h2, h3 {
+            color: #333;
+        }
+        a {
+            color: #0078D4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .nav-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .nav-links a {
+            background: #0078D4;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .nav-links a:hover {
+            background: #005A9E;
+        }
+        .content {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .skills {
+            background: #eef;
+            padding: 15px;
+            border-radius: 8px;
             margin-top: 20px;
         }
         ul {
@@ -21,38 +60,45 @@
         ul li {
             margin-bottom: 10px;
         }
-        .spacer {
-            margin-bottom: 20px;
-        }
     </style>
 </head>
 <body>
 
-    <h1><a href="/gsam95/gsam95">My Online Portfolio</a></h1>
+    <div class="content">
+        <h1><a href="/gsam95/gsam95">My Online Portfolio</a></h1>
 
-    <div class="spacer"></div>
+        <div class="nav-links">
+            <a href="https://gsam95.github.io/gsam95/ProjectGIS.html">GIS</a>
+            <a href="/Projects/EDA">Data Visualization & Storytelling with Data</a>
+            <a href="/Projects/Innovation">Innovation</a>
+            <a href="/Projects/LLMs">LLMs & Agent-Based Modeling</a>
+            <a href="/Projects/ML">Machine Learning</a>
+            <a href="/Projects/Policy-Analysis">Policy Analysis & Writing</a>
+            <a href="#">Pythonic Coding</a>
+        </div>
 
-    <h2>Policy Analysis</h2>
+        <h2>Policy Analysis</h2>
 
-    <p>The policy memos showcased here leveraged a structured 8-step policy analysis process to analyze complex policy problems. They illustrate key skills including:</p>
+        <p>The policy memos showcased here leveraged a structured 8-step policy analysis process to analyze complex policy problems. They illustrate key skills including:</p>
 
-    <ul>
-        <li><strong>Critical Policy Thinking</strong>: Evaluating how and when policy problems gain attention, avoiding common pitfalls, and assessing policy alternatives creatively.</li>
-        <li><strong>Data-Driven Decision Making</strong>: Using both quantitative and qualitative analysis to measure policy impacts and anticipate implementation challenges.</li>
-        <li><strong>Effective Communication</strong>: Crafting clear, persuasive policy recommendations tailored to decision-makers.</li>
-        <li><strong>Strategic Policy Development</strong>: Designing innovative solutions and considering political, economic, and ethical implications.</li>
-        <li><strong>Applied Problem-Solving</strong>: Engaging with real-world scenarios to simulate working as a policy analyst in government or civic agencies.</li>
-    </ul>
+        <ul>
+            <li><strong>Critical Policy Thinking:</strong> Evaluating how and when policy problems gain attention, avoiding common pitfalls, and assessing policy alternatives creatively.</li>
+            <li><strong>Data-Driven Decision Making:</strong> Using both quantitative and qualitative analysis to measure policy impacts and anticipate implementation challenges.</li>
+            <li><strong>Effective Communication:</strong> Crafting clear, persuasive policy recommendations tailored to decision-makers.</li>
+            <li><strong>Strategic Policy Development:</strong> Designing innovative solutions and considering political, economic, and ethical implications.</li>
+            <li><strong>Applied Problem-Solving:</strong> Engaging with real-world scenarios to simulate working as a policy analyst in government or civic agencies.</li>
+        </ul>
 
-    <p>These skills, combined with my background in data analytics and economics, allow me to integrate evidence-based research with practical policymaking strategies.</p>
+        <p>These skills, combined with my background in data analytics and economics, allow me to integrate evidence-based research with practical policymaking strategies.</p>
 
-    <div class="spacer"></div>
+        <div class="skills">
+            <h3>Memo / Writing Samples</h3>
+            <ul>
+                <li><a href="https://github.com/gsam95/gsam95/blob/main/ProjectPolicyAnalysis.html" download>Stakeholder Management & Weighing Policy Priorities</a></li>
+            </ul>
+        </div>
 
-    <h3>Memo / Writing Samples</h3>
-
-    <ul>
-        <li><a href="/Projects/Policy-Analysis/Need-assessment-&-stakeholder-management.docx" download>Stakeholder Management & Weighing Policy Priorities</a></li>
-    </ul>
+    </div>
 
 </body>
 </html>
