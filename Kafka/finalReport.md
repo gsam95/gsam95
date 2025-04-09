@@ -3,7 +3,7 @@ This mini-project was done as part of my Operationalizing AI class with Professo
 
 **Objective**
 
-I show hands-on experience with Apache Kafka for real-time data streaming and utilizing it for model development and analysis.
+Get hands-on experience with Apache Kafka for real-time data streaming and utilizing it for model development and analysis.
 
 
 **Context**
