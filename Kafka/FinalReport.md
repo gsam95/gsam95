@@ -98,21 +98,35 @@ _Citations_:
 
 Text (Intro and Kafka setup section are word-for-word from AI) is generated using Perplexity: https://www.perplexity.ai/search/what-error-in-this-line-mean-b-7LHNrTq8Q8OpxFerf90PGw?124=d&125=d&utm_source=copy_output_
 
-_[1] https://arxiv.org/abs/2104.01082
+[1] https://arxiv.org/abs/2104.01082
+
 [2] https://www.ibm.com/products/instana/supported-technologies/apache-kafka-observability
+
 [3] https://www.logicmonitor.com/blog/what-is-apache-kafka-and-how-do-you-monitor-it
+
 [4] https://middleware.io/blog/kafka-monitoring/
+
 [5] https://www.getorchestra.io/guides/apache-kafka-monitoring-and-metering
+
 [6] https://docs.confluent.io/platform/current/kafka/monitoring.html
+
 [7] https://dl.acm.org/doi/10.1145/3445945.3445949
+
 [8] https://www.datacamp.com/tutorial/apache-kafka-for-beginners-a-comprehensive-guide
+
 [9] https://bell-sw.com/blog/how-to-install-apache-kafka-on-a-local-machine/
+
 [10] https://www.tutorialspoint.com/apache_kafka/apache_kafka_installation_steps.htm
+
 [11] https://bryteflow.com/what-is-apache-kafka-and-installing-kafka-step-by-step/
+
 [12] https://kafka.apache.org/quickstart
+
 [13] https://docs.confluent.io/kafka/introduction.html
+
 [14] https://kafka.apache.org/documentation/
-[15] https://www.youtube.com/watch?v=QkdkLdMBuL0_
+
+[15] https://www.youtube.com/watch?v=QkdkLdMBuL0
 
 _______________
 
