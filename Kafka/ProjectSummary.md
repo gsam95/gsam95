@@ -1,4 +1,4 @@
-## [**Learning Kafka**](https://github.com/gsam95/gsam95/tree/main/Kafka)
+# [**Learning Kafka**](https://github.com/gsam95/gsam95/tree/main/Kafka)
 
 This mini-project was done as part of my Operationalizing AI class with Professor Anand Rao at Carnegie Mellon University.
 
@@ -11,7 +11,7 @@ Below is summary of the context and project phases.
 Get hands-on experience with Apache Kafka for real-time data streaming and utilizing it for model development and analysis.
 
 
-##### **Context**
+#### **Context**
 
 As urbanization accelerates, monitoring and predicting air quality has become increasingly critical for public health management and urban planning. High concentrations of air pollutants like CO, NOx, and Benzene can significantly impact respiratory health and overall quality of life. Real-time air quality data analysis is essential for providing timely air quality alerts, optimizing traffic flow to reduce emissions, and informing policy decisions.
 
@@ -38,11 +38,12 @@ Legend - CO: Carbon monoxide, measured in mg/m³ | NOx: Nitrogen oxides, measure
 - [Data preprocessing decisions](https://github.com/gsam95/gsam95/blob/main/Kafka/Phase1/datapreprocessingdecision.md) documented here
 
 
-2. []()
+#### 2. []()
 
 
 
-**Deliverables**
+
+_**Deliverables**_
 
 1. [Final report](https://github.com/gsam95/gsam95/blob/main/Kafka/FinalReport.md) can be found here. It logs output for each phase
 2. 
