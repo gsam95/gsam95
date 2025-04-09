@@ -69,7 +69,7 @@ _**Deliverables**_
 
 _Reference_
 
-_AI was used to write the required code._
+_AI was used to write required codes_
 
 _Context related text here and in the final report were adopted directly from the assignmnet outline_
 
