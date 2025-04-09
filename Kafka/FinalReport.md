@@ -241,7 +241,7 @@ _Benefits of Real-Time Prediction via Kafka_
 3. Robustness: The integration of feature engineering ensures that predictions account for temporal dependencies and local trends in pollutant levels
 
 
-Since the objective here was to use Kafka, the EDA and Models are not state of the art. Focus and objective is to showcase Kafka integration. EDA and ML skills are showcased via other projects in the portfolio.
+Since the objective here was to use Kafka, the EDA and Models are not state of the art.
 
 
 
