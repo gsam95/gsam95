@@ -175,42 +175,33 @@ The RMSE value (0.16) reinforces this conclusion, showing that larger errors are
 
 ### **Integration with Kafka**
 
-In a real-time environment:
-
-1. Data Streaming: Environmental data is continuously streamed into Kafka from sensors or other sources
-2. Consumption: The Kafka consumer retrieves incoming messages, cleans them, and appends them to a local CSV file
-3. Feature Engineering: Historical data is transformed into lagged features and rolling statistics required for predictions
-4. Prediction: The trained XGBoost model generates pollutant concentration forecasts for the next hour based on processed features
-5. Output: Predictions are saved locally and can be used for real-time monitoring or decision-making
-
-
 The developed mechanism integrates the trained machine learning model (XGBoost regressor) with a Kafka consumer pipeline to enable real-time predictions of pollutant concentrations. The process involves consuming environmental data streams from Kafka, preprocessing the data, and generating predictions using the trained model. 
 
 Below is a detailed description of how this mechanism was implemented here:
 
 1. Kafka Consumer Pipeline
 
-The system begins by initializing a Kafka consumer to listen to messages from the specified topic (`test-topic`). Each message represents a record of environmental data, such as pollutant concentrations and meteorological parameters. The consumer:
+The system begins by initializing a Kafka consumer to listen to messages from the specified topic (test-topic). Each message represents a record of environmental data, such as pollutant concentrations and meteorological parameters. The consumer:
 
-- Connects to the Kafka broker (`localhost:9092`) and retrieves messages in real time
+- Connects to the Kafka broker (localhost:9092) and retrieves messages in real time
 - Deserializes incoming JSON messages into Python dictionaries for further processing
 
 2. Data Cleaning
 
-Once a message is received, the `clean_data()` function processes the record to handle missing or invalid values:
+Once a message is received, the clean_data() function processes the record to handle missing or invalid values:
 
-- Invalid entries (e.g., `-200` or `'Unknown'`) are replaced with appropriate placeholders (`NaN`)
+- Invalid entries (e.g., -200 or 'Unknown') are replaced with appropriate placeholders (NaN)
 - Missing values are handled using forward filling, backward filling, or replacement with column means (if applicable)
-- 
+  
 This ensures that the incoming data is clean and usable for feature engineering and prediction.
 
 3. Saving Data to CSV
 
-After cleaning, each record is appended to a local CSV file (`streamed_kafka_data.csv`). This file serves as a cumulative log of all received data and provides historical context for generating lagged features and rolling statistics required for predictions.
+After cleaning, each record is appended to a local CSV file (streamed_kafka_data.csv). This file serves as a cumulative log of all received data and provides historical context for generating lagged features and rolling statistics required for predictions.
 
 4. Feature Engineering
 
-The `preprocess_for_prediction()` function transforms the raw data into features suitable for prediction:
+The preprocess_for_prediction() function transforms the raw data into features suitable for prediction:
 
 - Lagged Features: Creates lagged values (e.g., CO concentrations from 1, 2, and 3 previous hours) to capture temporal dependencies
 - Rolling Statistics: Computes rolling averages and standard deviations over a 3-hour window to capture local trends and variability
@@ -226,7 +217,7 @@ Once the features are prepared:
 
 6. Saving Predictions
 
-Predictions are saved to another CSV file (`hourly_predictions.csv`) in real time. Each entry includes:
+Predictions are saved to another CSV file (hourly_predictions.csv) in real time. Each entry includes:
 
 - The predicted datetime
 - The predicted pollutant concentration (CO)
