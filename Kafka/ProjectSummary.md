@@ -58,6 +58,23 @@ _Here we took a consolidated snapshot of the streamed data and visualized it to 
 
 #### 3. [*Real-time Predictions*](https://github.com/gsam95/gsam95/tree/main/Kafka/Phase3) 
 
+EDA in the previous section indicates there is a time relation in pollutant levels. This makes sense intuitively as well. We can thus assume that real-time predictions would be better than a static model that does not take into account most recent data.
+
+
+I leverage Kafka to enable real-time predictions of pollutant concentrations. The process involves consuming environmental data streams from Kafka, preprocessing the data, and generating predictions using the trained model.
+
+The graph below has static model on the left and real time prediction model on the right. Real time prediction improves the model performance by leaps and bounds!
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/a9ecc918-d406-4c77-90da-a7777b2cbd2b" width="400">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/02a5f806-5e2d-4b2f-a7c1-f56463b5bd7a" width="400">
+    </td>
+  </tr>
+</table>
 
 
 
