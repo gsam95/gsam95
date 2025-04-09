@@ -82,6 +82,8 @@ The partial autocorrelation plot shows the direct effect of lagged values.
 
 **The above 2 plots suggest that lagged values of degree 2 should be included when developing prediction models for CO. This will become clearer when we compare outcomes of basic modeling with real time modeling. The latter is able to predict much better as the highly relevant data of last 2 hours' CO levels are available here.**
 
+_
+_____________________________________________________________________________________________________________________________________________________________
 
 
 ### Phase 3: Air Quality Prediction Model
@@ -94,6 +96,44 @@ Develop predictive models to forecast pollutant concentrations (done for CO) usi
 
 
 **Modelling**
+
+
+
+
+
+1. XGBoost
+2. ARIMA
+
+   
+Model Requirements:
+Choose ONE from each category:
+
+Basic Models (Required):
+Linear Regression with time-based features
+Random Forest
+XGBoost
+Advanced Models (Optional - 5 Bonus Points):
+ARIMA or SARIMA
+LSTM (Note: This requires more computational resources)
+Feature Engineering Requirements:
+
+Develop time-based features (hour, day, month)
+Create lagged features from previous time periods
+Generate rolling statistics (averages, standard deviations)
+Document your feature engineering approach
+Evaluation Process:
+
+Use a chronological train/test split appropriate for time series data
+Evaluate using MAE and RMSE metrics
+Compare your model to a baseline (previous value prediction)
+Integration with Kafka:
+
+Develop a mechanism to use your trained model with incoming Kafka messages
+Document how your system would operate in a real-time environment
+
+
+
+
 
 
 _Citations_:
@@ -129,35 +169,3 @@ Text (Intro and Kafka setup section are word-for-word from AI) is generated usin
 [14] https://kafka.apache.org/documentation/
 
 [15] https://www.youtube.com/watch?v=QkdkLdMBuL0
-
-_______________
-
-1. XGBoost
-2. ARIMA
-
-   
-Model Requirements:
-Choose ONE from each category:
-
-Basic Models (Required):
-Linear Regression with time-based features
-Random Forest
-XGBoost
-Advanced Models (Optional - 5 Bonus Points):
-ARIMA or SARIMA
-LSTM (Note: This requires more computational resources)
-Feature Engineering Requirements:
-
-Develop time-based features (hour, day, month)
-Create lagged features from previous time periods
-Generate rolling statistics (averages, standard deviations)
-Document your feature engineering approach
-Evaluation Process:
-
-Use a chronological train/test split appropriate for time series data
-Evaluate using MAE and RMSE metrics
-Compare your model to a baseline (previous value prediction)
-Integration with Kafka:
-
-Develop a mechanism to use your trained model with incoming Kafka messages
-Document how your system would operate in a real-time environment
