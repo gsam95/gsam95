@@ -32,9 +32,9 @@ Legend - CO: Carbon monoxide, measured in mg/m³ | NOx: Nitrogen oxides, measure
 
 1. [Kafka Setup & Streaming Data](https://github.com/gsam95/gsam95/tree/main/Kafka/Phase1)
 
-- [Apache Kafka Setup](https://github.com/gsam95/gsam95/blob/main/Kafka/Phase1/kafkasetup.md): Installed Apache Kafka and its dependencies in development environment, configure Kafka servers, and created a Kafka topic for air quality data
+- [Apache Kafka Setup](https://github.com/gsam95/gsam95/blob/main/Kafka/Phase1/kafkasetup.md): Installed Apache Kafka and its dependencies in development environment, configured Kafka servers, and created a Kafka topic for air quality data
 - [Kafka producer](https://github.com/gsam95/gsam95/blob/main/Kafka/Phase1/producer.py): Created a Kafka producer script that sends the dataset records to Kafka topic. Simulated real-time data by implementing a time delay mechanism
-- [Kafka consumer](https://github.com/gsam95/gsam95/blob/main/Kafka/Phase1/consumer.py): Developed Python script creates a Kafka consumer that read from air quality data topic and processes the incoming data or stores it for analysis
+- [Kafka consumer](https://github.com/gsam95/gsam95/blob/main/Kafka/Phase1/consumer.py): Developed Python script creates a Kafka consumer that reads from topic and processes the incoming data or stores it for analysis
 - [Data preprocessing decisions](https://github.com/gsam95/gsam95/blob/main/Kafka/Phase1/datapreprocessingdecision.md) documented here
 
 
