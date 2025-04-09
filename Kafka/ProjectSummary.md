@@ -51,7 +51,7 @@ Details of the EDA on the air quality data streamed from Kafka are documented in
 
 _Future Scope of Work_
 
-_Here we took a consolidated snapshot of the streamed data and visualized it to analyze patterns. A more real-time use case would be to visualize the data hourly (an example of this would be the screens that show pollution levels. In future, I'd like to integrate Kafka and make real time visualizations._
+_Here we took a consolidated snapshot of the streamed data and visualized it to analyze patterns. A more real-time use case would be to visualize the data hourly (an example of this would be the screens that show pollution levels). In future, I'd like to integrate Kafka and make real time visualizations._
 
 [![image](https://github.com/user-attachments/assets/1b221f7f-4262-4f9f-a882-9e252095248a)](https://www.dreamstime.com/air-pollution-index-api-air-pollution-index-roadsign-electronic-screen-many-uses-environment-pollution-control-image109106661)
 
