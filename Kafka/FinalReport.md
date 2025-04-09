@@ -16,7 +16,7 @@ Missing values were purposely not imputed at this stage as right now, the visual
 
 _I visualized hourly pollution concentrations to analyze patterns over time_
 
-- As the visual below show, around Nov-Dec 2004, pollutant level were unusually high. It would be interesting to connect it to events at the time (earthquakes, waste dumping, air flow patterns) that could have contributed to this
+- As the visual below show, around Nov-Dec 2004, pollutant level were unusually high. It would be interesting to connect it to events at the time (like earthquakes, waste dumping, air flow patterns) that could have contributed to this
   
    ![newplot](https://github.com/user-attachments/assets/132174c7-defe-441c-8aaf-d7d6d73dc021)
 
