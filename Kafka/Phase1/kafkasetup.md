@@ -1,4 +1,8 @@
 **Log of Kafka Installation - That worked!**
+
+This was the most time intensive step (took about 2 days! just to get Kafka started). The steps below is what I now follow to get Kafka running.
+Prior to this, I fixed file path in my .sh file to make it bash compatible.
+
 1. Clear all logs (from tmp folder outside the main folder, and from the logs inside the kafka folder) 
 2. In a bash window: cd D:/kafka_2.13-4.0.0
 3. Create new meta properties file: bin/kafka-storage.sh format -t random -c config/kraft/server.properties --standalone
