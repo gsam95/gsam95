@@ -1,3 +1,17 @@
+### Introduction 
+
+### **Introduction**
+
+The rapid urbanization and industrialization of modern cities have led to significant environmental challenges, particularly in monitoring and predicting air quality. High concentrations of pollutants such as carbon monoxide (CO), nitrogen oxides (NOx), and benzene (C6H6) pose severe risks to public health, necessitating real-time monitoring systems to provide timely alerts and actionable insights. This assignment explores the intersection of environmental monitoring and data engineering by leveraging Apache Kafka, a powerful distributed event-streaming platform, to analyze real-time air quality data.
+
+
+The primary objective of this assignment is to develop a robust pipeline for streaming, processing, and analyzing environmental time series data using the UCI Air Quality dataset. By implementing predictive models for pollutant concentrations, this project aims to demonstrate the practical applications of Kafka in real-time environmental monitoring and decision-making contexts.
+
+
+Through this hands-on experience, I gained foundational knowledge of Apache Kafka's installation, configuration, and usage for real-time data streaming. Additionally, I performed exploratory data analysis (EDA) on the UCI Air Quality dataset to identify temporal patterns in pollutant concentrations and implement predictive models to forecast air quality metrics. This assignment highlights the critical role of big data techniques in addressing urban environmental challenges, optimizing traffic flow, reducing emissions, and informing policy decisions.
+
+
+
 ### Phase 2: Exploratory Data Analysis (EDA) on Time Series Data
 
 **Objective** 
@@ -47,3 +61,59 @@ The partial autocorrelation plot shows the direct effect of lagged values.
 ![newplot (1)](https://github.com/user-attachments/assets/3586883c-25c0-4f34-8acd-3fe8d4de9f86)
 
 The above 2 plots suggest that lagged values of degree 2 should be included when developing prediction models for CO. This will become clearer when we compare outcomes of basic modeling with real time modeling. The latter is able to predict much better as the highly relevant data of last 2 hours' CO levels are available here.
+
+
+### Phase 3: Air Quality Prediction Model
+
+**Objective** 
+
+Develop predictive models to forecast pollutant concentrations (done for CO) using the features derived from the time-series data.
+
+**Feature Engineering**
+
+
+**Modelling**
+
+
+_Citations_:
+_[1] https://arxiv.org/abs/2104.01082
+[2] https://www.ibm.com/products/instana/supported-technologies/apache-kafka-observability
+[3] https://www.logicmonitor.com/blog/what-is-apache-kafka-and-how-do-you-monitor-it
+[4] https://middleware.io/blog/kafka-monitoring/
+[5] https://www.getorchestra.io/guides/apache-kafka-monitoring-and-metering
+[6] https://docs.confluent.io/platform/current/kafka/monitoring.html
+[7] https://dl.acm.org/doi/10.1145/3445945.3445949
+[8] Text is generated using Perplexity: https://www.perplexity.ai/search/what-error-in-this-line-mean-b-7LHNrTq8Q8OpxFerf90PGw?124=d&125=d&utm_source=copy_output_
+
+
+_______________
+
+1. XGBoost
+2. ARIMA
+
+   
+Model Requirements:
+Choose ONE from each category:
+
+Basic Models (Required):
+Linear Regression with time-based features
+Random Forest
+XGBoost
+Advanced Models (Optional - 5 Bonus Points):
+ARIMA or SARIMA
+LSTM (Note: This requires more computational resources)
+Feature Engineering Requirements:
+
+Develop time-based features (hour, day, month)
+Create lagged features from previous time periods
+Generate rolling statistics (averages, standard deviations)
+Document your feature engineering approach
+Evaluation Process:
+
+Use a chronological train/test split appropriate for time series data
+Evaluate using MAE and RMSE metrics
+Compare your model to a baseline (previous value prediction)
+Integration with Kafka:
+
+Develop a mechanism to use your trained model with incoming Kafka messages
+Document how your system would operate in a real-time environment
