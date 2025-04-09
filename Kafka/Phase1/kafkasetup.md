@@ -1,4 +1,4 @@
-**Log of Kafka Installation - That worked!**
+## **Log of Kafka Installation - That worked!**
 
 This was the most time intensive step (took about 2 days! just to get Kafka started). The steps below is what I now follow to get Kafka running.
 Prior to this, I fixed file path in my .sh file to make it bash compatible.
@@ -20,7 +20,7 @@ NEW BASH WINDOW
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Log of Kafka Installation/Setup Issues**
+### **Log of Kafka Installation/Setup Issues**
 
 **1. Initial Setup & Configuration**
 **Query**: Steps to start Kafka server on Windows (KRaft mode) via PowerShell.   
