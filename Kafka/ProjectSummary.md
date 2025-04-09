@@ -2,7 +2,8 @@
 
 This mini-project was done as part of my Operationalizing AI class with Professor Anand Rao at Carnegie Mellon University.
 
-[Final report](https://github.com/gsam95/gsam95/blob/main/Kafka/FinalReport.md) can be found here. Below is summary of the context and project phases.
+Below is summary of the context and project phases.
+
 
 
 **Objective**
@@ -41,6 +42,10 @@ Legend - CO: Carbon monoxide, measured in mg/m³ | NOx: Nitrogen oxides, measure
 
 
 
+**Deliverables**
+
+1. [Final report](https://github.com/gsam95/gsam95/blob/main/Kafka/FinalReport.md) can be found here. It logs output for each phase
+2. 
 
 
 
