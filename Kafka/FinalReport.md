@@ -131,36 +131,49 @@ The target variable for predictive modeling is CO(GT) - Carbon monoxide concentr
 
 **Modelling**
 
+The model used in this analysis is **XGBoost (Extreme Gradient Boosting)**, a powerful and efficient machine learning algorithm designed for supervised learning tasks. XGBoost is particularly well-suited for regression problems due to its ability to handle complex relationships between features and the target variable, while minimizing overfitting through regularization techniques.
 
 
+Key characteristics of the XGBoost model:
+
+- Number of Estimators: 100 decision trees are built during training.
+- Maximum Depth: Each tree has a maximum depth of 5, allowing the model to capture moderately complex patterns in the data.
+- Learning Rate: Set to 0.1, which controls the step size in updating weights during training. This balances convergence speed and model performance.
 
 
-1. XGBoost
-2. ARIMA
+The model was trained to predict carbon monoxide concentrations (CO(GT)) based on engineered features such as lagged values, rolling statistics, and time-based attributes.
 
+_Chronological Train/Test Split_
+
+Given that this is a time series problem, a chronological train/test split was applied to ensure temporal consistency:
+
+1. Training Data: All observations from the year 2004 were used for training the model. This ensures that predictions are based only on past data
+2. Testing Data: All observations from the year 2005 were used for testing. The test set represents future data that the model has not seen during training
+
+This approach respects the sequential nature of time series data and avoids data leakage (e.g., using future information during training).
+
+
+_Evaluation Metrics_
+
+The model's performance was evaluated using:
+1. Mean Absolute Error (MAE):
    
-Model Requirements:
-Choose ONE from each category:
+   - Measures the average magnitude of errors between predicted and actual values
+   - MAE is easy to interpret; lower values indicate better performance
+   - Result: MAE = 0.11, indicating that on average, the model's predictions deviate from actual CO concentrations by 0.11 units
 
-Basic Models (Required):
-Linear Regression with time-based features
-Random Forest
-XGBoost
-Advanced Models (Optional - 5 Bonus Points):
-ARIMA or SARIMA
-LSTM (Note: This requires more computational resources)
-Feature Engineering Requirements:
+The low MAE value (0.11) indicates that the model provides highly accurate predictions with minimal deviation from actual values.
 
-Develop time-based features (hour, day, month)
-Create lagged features from previous time periods
-Generate rolling statistics (averages, standard deviations)
-Document your feature engineering approach
-Evaluation Process:
+2. Root Mean Squared Error (RMSE):
+   
+   - Measures the square root of the average squared errors between predicted and actual values
+   - RMSE penalizes larger errors more heavily than MAE, making it sensitive to outliers
+   - Result: RMSE = 0.16, suggesting that the typical prediction error is approximately 0.16 units
 
-Use a chronological train/test split appropriate for time series data
-Evaluate using MAE and RMSE metrics
-Compare your model to a baseline (previous value prediction)
-Integration with Kafka:
+The RMSE value (0.16) reinforces this conclusion, showing that larger errors are rare and well-controlled.
+
+
+**Integration with Kafka**
 
 Develop a mechanism to use your trained model with incoming Kafka messages
 Document how your system would operate in a real-time environment
