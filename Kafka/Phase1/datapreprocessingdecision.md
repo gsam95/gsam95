@@ -33,5 +33,10 @@ The Datetime column is converted to a proper datetime format using pd.to_datetim
 
 Rows with invalid or missing datetime values (NaT) are dropped from the dataset to ensure clean indexing and time-based analysis.
 
+
+
+
+
 _Reference_
+
 _[Perplexity used to create this steps](https://www.perplexity.ai/search/what-error-in-this-line-mean-b-tLbCAenpTJS59ZRnuLr5eQ)_
