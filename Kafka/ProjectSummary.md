@@ -44,7 +44,7 @@ _Now that we have real time data streaming in, there are multiple use-cases. In 
 _Declaration: Since the objective here was to use Kafka, the EDA and Models are not state of the art. Focus and objective is to showcase Kafka integration. EDA and ML skills are showcased via other projects in the portfolio._
 
 
-#### 2. *Visualizing Patterns*
+#### 2. **Visualizing Patterns**
 
 Details of the EDA on the air quality data streamed from Kafka, focusing on understanding the temporal patterns in pollutant concentrations and relationships between different pollutants are documented in the [Final Report](https://github.com/gsam95/gsam95/blob/main/Kafka/FinalReport.md).
 
