@@ -95,7 +95,7 @@ _Reference_
 
 _AI was used to write required codes_
 
-_Context related text here and in the final report were adopted directly from the assignmnet outline_
+_Context related text here and in the final report were adopted directly from the assignment outline_
 
 
 
