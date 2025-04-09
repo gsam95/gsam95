@@ -46,7 +46,7 @@ _Declaration: Since the objective here was to use Kafka, the EDA and Models are 
 
 #### 2. **Visualizing Patterns**
 
-Details of the EDA on the air quality data streamed from Kafka, focusing on understanding the temporal patterns in pollutant concentrations and relationships between different pollutants are documented in the [Final Report](https://github.com/gsam95/gsam95/blob/main/Kafka/FinalReport.md).
+Details of the EDA on the air quality data streamed from Kafka are documented in the [Final Report](https://github.com/gsam95/gsam95/blob/main/Kafka/FinalReport.md) Focus was on understanding the temporal patterns in pollutant concentrations and relationships between different pollutants.
 
 
 _Future Scope of Work_
