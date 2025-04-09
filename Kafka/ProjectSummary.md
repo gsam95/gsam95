@@ -58,10 +58,20 @@ _Here we took a consolidated snapshot of the streamed data and visualized it to 
 
 
 
+
+
 _**Deliverables**_
 
 1. [Final Report](https://github.com/gsam95/gsam95/blob/main/Kafka/FinalReport.md) can be found here. It logs output for each phase
 2. Other deliverables required for the assignment are linked in the corresponding section and subsection of this page
+
+
+
+_Reference_
+
+_AI was used to write the required code._
+
+_Context related text here and in the final report were adopted directly from the assignmnet outline_
 
 
 
