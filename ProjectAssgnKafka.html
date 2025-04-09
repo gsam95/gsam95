@@ -1,81 +1,141 @@
-<h1><a href="https://github.com/gsam95/gsam95/tree/main/Kafka"><strong>Learning Kafka</strong></a></h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Kafka</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        a {
+            color: #0078D4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .nav-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .nav-links a {
+            background: #0078D4;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .nav-links a:hover {
+            background: #005A9E;
+        }
+        .content {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+            margin-top: 20px;
+        }
+        .skills {
+            background: #eef;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+        }
+        td {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
 
-<p>This mini-project was done as part of my Operationalizing AI class with Professor Anand Rao at Carnegie Mellon University.</p>
+    <div class="content">
+        <h1><a href="https://github.com/gsam95/gsam95/tree/main/Kafka">Learning Kafka</a></h1>
 
-<p>Below is summary of the context and project phases.</p>
+        <p>This mini-project was done as part of my Operationalizing AI class with Professor Anand Rao at Carnegie Mellon University.</p>
 
-<h3><strong>Objective</strong></h3>
+        <h2>Objective</h2>
+        <p>Get hands-on experience with Apache Kafka for real-time data streaming and utilizing it for model development and analysis.</p>
 
-<p>Get hands-on experience with Apache Kafka for real-time data streaming and utilizing it for model development and analysis.</p>
+        <h2>Context</h2>
+        <p>As urbanization accelerates, monitoring and predicting air quality has become increasingly critical for public health management and urban planning. High concentrations of air pollutants like CO, NOx, and Benzene can significantly impact respiratory health and overall quality of life. Real-time air quality data analysis is essential for providing timely air quality alerts, optimizing traffic flow to reduce emissions, and informing policy decisions.</p>
 
-<h4><strong>Context</strong></h4>
+        <p>I used the <a href="https://archive.ics.uci.edu/ml/datasets/Air+Quality">UCI Air Quality dataset</a>.</p>
 
-<p>As urbanization accelerates, monitoring and predicting air quality has become increasingly critical for public health management and urban planning. High concentrations of air pollutants like CO, NOx, and Benzene can significantly impact respiratory health and overall quality of life. Real-time air quality data analysis is essential for providing timely air quality alerts, optimizing traffic flow to reduce emissions, and informing policy decisions.</p>
+        <h3>Dataset Description</h3>
+        <ul>
+            <li>CSV file format with 9,358 hourly instances (March 2004 to February 2005)</li>
+            <li>15 columns including date/time and various sensor readings</li>
+            <li>Missing values are marked with -200 in the dataset</li>
+            <li>Features include CO, NOx, NO2, Benzene, and other pollutant measurements</li>
+            <li>Ground truth measurements from certified analyzers included alongside sensor readings</li>
+        </ul>
 
-<p>I use <a href="https://archive.ics.uci.edu/ml/datasets/Air+Quality">UCI Air Quality dataset</a>.</p>
+        <p><strong>Legend:</strong> CO (Carbon monoxide) | NOx (Nitrogen oxides) | NO2 (Nitrogen dioxide) | Benzene | Normal urban ranges for pollutants provided in the dataset.</p>
 
-<p><em>Dataset Description</em></p>
+        <h2>Project Phases - Summary</h2>
 
-<ul>
-    <li>CSV file format with 9,358 hourly instances (March 2004 to February 2005)</li>
-    <li>15 columns including date/time and various sensor readings</li>
-    <li>Missing values are marked with -200 in the dataset</li>
-    <li>Features include CO, NOx, NO2, Benzene, and other pollutant measurements</li>
-    <li>Ground truth measurements from certified analyzers included alongside sensor readings</li>
-</ul>
+        <h3><a href="https://github.com/gsam95/gsam95/tree/main/Kafka/Phase1">1. Kafka Setup & Streaming Data</a></h3>
+        <ul>
+            <li><a href="https://github.com/gsam95/gsam95/blob/main/Kafka/Phase1/kafkasetup.md">Apache Kafka Setup:</a> Installed Apache Kafka in a development environment, configured servers, and created a Kafka topic for air quality data.</li>
+            <li><a href="https://github.com/gsam95/gsam95/blob/main/Kafka/Phase1/producer.py">Kafka Producer:</a> Script to send dataset records to Kafka topics, simulating real-time data with time delays.</li>
+            <li><a href="https://github.com/gsam95/gsam95/blob/main/Kafka/Phase1/consumer.py">Kafka Consumer:</a> Script to read from topics and process incoming data for analysis.</li>
+            <li><a href="https://github.com/gsam95/gsam95/blob/main/Kafka/Phase1/datapreprocessingdecision.md">Data Preprocessing Decisions:</a> Documented preprocessing steps for handling missing values and ensuring clean data streams.</li>
+        </ul>
 
-<p>Legend - CO: Carbon monoxide, measured in mg/m³ | NOx: Nitrogen oxides, measured in ppb (parts per billion) | NO2: Nitrogen dioxide, measured in µg/m³ | Benzene: Measured in µg/m³ | Normal urban ranges: CO (0.5-5 mg/m³), NOx (5-100 ppb), Benzene (0.5-10 µg/m³)</p>
+        <p><em>Declaration:</em> This project focuses on showcasing Kafka integration rather than building state-of-the-art EDA or models.</p>
 
-<h3><strong>Project Phases - Summary</strong></h3>
+        <h3><strong>2. Visualizing Patterns</strong></h3>
+        <p>The EDA on streamed air quality data is documented in the <a href="https://github.com/gsam95/gsam95/blob/main/Kafka/FinalReport.md">Final Report</a>. It focuses on temporal patterns in pollutant concentrations and relationships between different pollutants.</p>
 
-<h4><a href="https://github.com/gsam95/gsam95/tree/main/Kafka/Phase1">1. Kafka Setup &amp; Streaming Data</a></h4>
+        <p><em>Future Scope:</em> A real-time visualization use case could include hourly updates of pollution levels displayed on screens (e.g., public dashboards).</p>
 
-<ul>
-    <li><a href="https://github.com/gsam95/gsam95/blob/main/Kafka/Phase1/kafkasetup.md">Apache Kafka Setup</a>: Installed Apache Kafka and its dependencies in development environment, configured Kafka servers, and created a Kafka topic for air quality data</li>
-    <li><a href="https://github.com/gsam95/gsam95/blob/main/Kafka/Phase1/producer.py">Kafka producer</a>: Created a Kafka producer script that sends the dataset records to Kafka topic. Simulated real-time data by implementing a time delay mechanism</li>
-    <li><a href="https://github.com/gsam95/gsam95/blob/main/Kafka/Phase1/consumer.py">Kafka consumer</a>: Developed Python script creates a Kafka consumer that reads from topic and processes the incoming data or stores it for analysis</li>
-    <li><a href="https://github.com/gsam95/gsam95/blob/main/Kafka/Phase1/datapreprocessingdecision.md">Data preprocessing decisions</a> documented here</li>
-</ul>
+        <img src="https://github.com/user-attachments/assets/1b221f7f-4262-4f9f-a882-9e252095248a" alt="Visualization Example" style="width:100%; margin-top:20px;">
 
-<p><em>Now that we have real time data streaming in, there are multiple use-cases. In Phase 2 we visualize the streamed data. In Phase 3 we make hourly predictions to guide decisions.</em></p>
+        <h3><a href="https://github.com/gsam95/gsam95/tree/main/Kafka/Phase3">3. Real-time Predictions</a></h3>
+        <p>The EDA indicated temporal relationships in pollutant levels. Real-time predictions leverage this relationship by incorporating recent data into forecasting models.</p>
 
-<p><em>Declaration: Since the objective here was to use Kafka, the EDA and Models are not state of the art. Focus and objective is to showcase Kafka integration. EDA and ML skills are showcased via other projects in the portfolio.</em></p>
+        <table>
+          <tr>
+              <td><img src="https://github.com/user-attachments/assets/a9ecc918-d406-4c77-90da-a7777b2cbd2b" width="400" alt="Static Model"></td>
+              <td><img src="https://github.com/user-attachments/assets/02a5f806-5e2d-4b2f-a7c1-f56463b5bd7a" width="400" alt="Real-Time Model"></td>
+          </tr>
+          <tr>
+              <td><strong>Static Model</strong></td>
+              <td><strong>Real-Time Model</strong></td>
+          </tr>
+      </table>
 
-<h4>2. <strong>Visualizing Patterns</strong></h4>
+      <h3><strong>Deliverables</strong></h3>
+      <ol>
+          <li><a href="https://github.com/gsam95/gsam95/blob/main/Kafka/FinalReport.md">Final Report:</a> Logs output for each phase.</li>
+          <li><a href="https://github.com/gsam95/gsam95/tree/main/Kafka">GitHub Repository:</a> Contains all scripts and documentation.</li>
+      </ol>
 
-<p>Details of the EDA on the air quality data streamed from Kafka are documented in the <a href="https://github.com/gsam95/gsam95/blob/main/Kafka/FinalReport.md">Final Report</a>. Focus was on understanding the temporal patterns in pollutant concentrations and relationships between different pollutants.</p>
+      <p><em>Reference:</em> AI was used to write required codes. Context-related text was adopted from the assignment outline.</p>
 
-<p><em>Future Scope of Work</em></p>
+    </div>
 
-<p><em>Here we took a consolidated snapshot of the streamed data and visualized it to analyze patterns. A more real-time use case would be to visualize the data hourly (an example of this would be the screens that show pollution levels). In future, I'd like to integrate Kafka and make real time visualizations.</em></p>
-
-<p><a href="https://www.dreamstime.com/air-pollution-index-api-air-pollution-index-roadsign-electronic-screen-many-uses-environment-pollution-control-image109106661"><img src="https://github.com/user-attachments/assets/1b221f7f-4262-4f9f-a882-9e252095248a" alt="image"></a></p>
-
-<h4><a href="https://github.com/gsam95/gsam95/tree/main/Kafka/Phase3">3. <strong>Real-time Predictions</strong></a></h4>
-
-<p>EDA in the previous section indicates there is a time relation in pollutant levels. This makes sense intuitively as well. We can thus assume that real-time predictions would be better than a static model that does not take into account most recent data.</p>
-
-<p>I leverage Kafka to enable real-time predictions of pollutant concentrations. The process involves consuming environmental data streams from Kafka, preprocessing the data, and generating predictions using the trained model.</p>
-
-<p>The graph below has static model on the left and real time prediction model on the right. Real time prediction improves the model performance by leaps and bounds!</p>
-
-<table>
-    <tr>
-        <td><img src="https://github.com/user-attachments/assets/a9ecc918-d406-4c77-90da-a7777b2cbd2b" width="400"></td>
-        <td><img src="https://github.com/user-attachments/assets/02a5f806-5e2d-4b2f-a7c1-f56463b5bd7a" width="400"></td>
-    </tr>
-</table>
-
-<p><em><strong>Deliverables</strong></em></p>
-
-<ol>
-    <li><a href="https://github.com/gsam95/gsam95/blob/main/Kafka/FinalReport.md">Final Report</a> can be found here. It logs output for each phase</li>
-    <li><a href="https://github.com/gsam95/gsam95/tree/main/Kafka">Git Repo</a></li>
-    <li>Other deliverables required for the assignment are linked in the corresponding section and subsection of this page</li>
-</ol>
-
-<p><em>Reference</em></p>
-
-<p><em>AI was used to write required codes</em></p>
-
-<p><em>Context related text here and in the final report were adopted directly from the assignment outline</em></p>
+</body>
+</html>
