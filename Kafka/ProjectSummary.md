@@ -46,7 +46,7 @@ Legend - CO: Carbon monoxide, measured in mg/m³ | NOx: Nitrogen oxides, measure
 _**Deliverables**_
 
 1. [Final report](https://github.com/gsam95/gsam95/blob/main/Kafka/FinalReport.md) can be found here. It logs output for each phase
-2. 
+2. Other deliverables required for the assignment are linked in the corresponding section and subsection of this page
 
 
 
