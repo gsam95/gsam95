@@ -82,7 +82,7 @@ The partial autocorrelation plot shows the direct effect of lagged values.
 
 **The above 2 plots suggest that lagged values of degree 2 should be included when developing prediction models for CO. This will become clearer when we compare outcomes of basic modeling with real time modeling. The latter is able to predict much better as the highly relevant data of last 2 hours' CO levels are available here.**
 
-_
+
 _____________________________________________________________________________________________________________________________________________________________
 
 
@@ -93,6 +93,40 @@ ________________________________________________________________________________
 Develop predictive models to forecast pollutant concentrations (done for CO) using the features derived from the time-series data.
 
 **Feature Engineering**
+
+The feature engineering process involves creating new variables that capture meaningful patterns and relationships in the data. Below is a description of the features created based on the provided code:
+
+
+1. Time-Based Features: Hourly, daily, and monthly patterns help capture temporal variations in pollutant levels
+   
+These features are extracted from the `Datetime` index to capture temporal patterns in pollutant concentrations:
+
+- Hour: Represents the hour of the day (e.g., 0 to 23). It helps identify hourly variations in air quality.
+- Day: Represents the day of the month (e.g., 1 to 31). It can be used to analyze daily trends.
+- Month: Represents the month of the year (e.g., 1 for January, 12 for December). This feature is useful for identifying seasonal patterns in pollutant levels.
+
+2. Lagged Features: Lagged features model how past pollutant levels influence current observations
+
+Lagged features represent pollutant concentrations from previous time periods (lags), capturing temporal dependencies:
+
+- CO_lag_1, CO_lag_2, CO_lag_3: Carbon monoxide concentrations from 1, 2, and 3 time periods before the current observation. These features help model how past CO levels influence current levels.
+- NOx_lag_1, NOx_lag_2, NOx_lag_3: Nitrogen oxide concentrations from 1, 2, and 3 previous periods. These features capture short-term dependencies in NOx levels.
+- C6H6_lag_1, C6H6_lag_2, C6H6_lag_3: Benzene concentrations from 1, 2, and 3 previous periods. These features help model temporal relationships in benzene levels.
+
+3. Rolling Statistics: Rolling statistics smooth out fluctuations and highlight trends or variability over short time windows
+
+Rolling statistics provide aggregated measures (mean and standard deviation) over a defined window of time to capture local trends and variability:
+
+- CO_roll_mean: The average carbon monoxide concentration over a rolling window of three time periods. This feature smooths out short-term fluctuations and highlights trends.
+- CO_roll_std: The standard deviation of carbon monoxide concentrations over three time periods. It measures variability in CO levels within the window.
+- NOx_roll_mean: The average nitrogen oxide concentration over a rolling window of three time periods. This feature captures local trends in NOx levels.
+- NOx_roll_std: The standard deviation of nitrogen oxide concentrations over three time periods. It highlights variability in NOx levels within the window.
+
+
+
+_Target Variable_
+
+The target variable for predictive modeling is CO(GT) - Carbon monoxide concentration measured by ground truth sensors. This is the dependent variable that predictive model aims to forecast.
 
 
 **Modelling**
