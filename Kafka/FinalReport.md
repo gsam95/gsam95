@@ -156,13 +156,12 @@ This approach respects the sequential nature of time series data and avoids data
 _Evaluation Metrics_
 
 The model's performance was evaluated using:
+
 1. Mean Absolute Error (MAE):
    
    - Measures the average magnitude of errors between predicted and actual values
    - MAE is easy to interpret; lower values indicate better performance
    - Result: MAE = 0.11, indicating that on average, the model's predictions deviate from actual CO concentrations by 0.11 units
-
-The low MAE value (0.11) indicates that the model provides highly accurate predictions with minimal deviation from actual values.
 
 2. Root Mean Squared Error (RMSE):
    
@@ -170,12 +169,21 @@ The low MAE value (0.11) indicates that the model provides highly accurate predi
    - RMSE penalizes larger errors more heavily than MAE, making it sensitive to outliers
    - Result: RMSE = 0.16, suggesting that the typical prediction error is approximately 0.16 units
 
-The RMSE value (0.16) reinforces this conclusion, showing that larger errors are rare and well-controlled.
 
+The plot below visualizes. As is evident, the initial few predictions are close to the actuals, but later predcitions are way off. This is intuitive from the autocorrelation discussion above. Recent values determine future values. 
+
+![arima_actual_vs_forecast](https://github.com/user-attachments/assets/a499ff90-636c-4108-a8e7-d534ee64deb9)
+
+This highlights the need for real time predictions. We implement it in the next section.
 
 ### [**Real-time Prediction: Integration with Kafka**](https://github.com/gsam95/gsam95/tree/main/Kafka/Phase3/RealTimePrediction)
 
 The developed mechanism integrates the trained machine learning model (XGBoost regressor) with a Kafka consumer pipeline to enable real-time predictions of pollutant concentrations. The process involves consuming environmental data streams from Kafka, preprocessing the data, and generating predictions using the trained model. 
+
+As the graph below shows, the predicted values are pretty close to actuals! Real time prediction improves the model performance by leaps and bounds!
+
+![newplot](https://github.com/user-attachments/assets/84e31b62-b0c1-448a-9a60-0a103d786e88)
+
 
 Below is a detailed description of how this mechanism was implemented here:
 
