@@ -7,21 +7,25 @@ The steps could have been implemented at the consumer stage, but a conscious dec
 ### _Data Cleaning Steps_
 
 1. Numeric Columns are identified
+   
 The columns CO(GT), NOx(GT), and C6H6(GT) are identified as numeric columns that require cleaning.
 
 These columns contain pollutant concentration values.
 
 2. Convert Columns to Float Type
+   
 Each numeric column is explicitly converted to the float data type to ensure consistent handling of missing values (NaN) and invalid entries.
 
 This step ensures that operations like replacing missing values or calculating column means can be performed without errors.
 
 3. Replace Infinite Values
+   
 Any occurrences of infinite values (float('inf') or float('-inf')) in the numeric columns are replaced with NaN.
 
 Infinite values can arise due to errors in data collection or calculations, and replacing them ensures the dataset remains clean and usable.
 
 4. Handle Missing Values
+   
 Missing values in the numeric columns are handled using multiple strategies:
 
 - Forward Fill: Missing values are filled using the value from the previous row (if available). This assumes that nearby data points are similar.
