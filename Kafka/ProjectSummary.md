@@ -27,7 +27,7 @@ _Dataset Description_
 Legend - CO: Carbon monoxide, measured in mg/m³ | NOx: Nitrogen oxides, measured in ppb (parts per billion) | NO2: Nitrogen dioxide, measured in µg/m³ | Benzene: Measured in µg/m³ | Normal urban ranges: CO (0.5-5 mg/m³), NOx (5-100 ppb), Benzene (0.5-10 µg/m³)
 
 
-**Project Summary**
+**Project Phases - Summary**
 
 1. [Kafka Setup & Streaming Data](https://github.com/gsam95/gsam95/tree/main/Kafka/Phase1)
 
