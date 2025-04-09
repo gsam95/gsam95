@@ -12,7 +12,7 @@ For the purpose of this assignment, we focused on  CO, NOx, and Benzene concentr
 
 1. Analyze time-based patterns in the data
 
-Missing values were purposely not imputed at this stage as right now, the visualization clearly highlight times when there were blips in the systems (when measures are missing). Frequent blips could highlight the need to upgrade infrastructure.
+Missing values were purposely not imputed at this stage as right now, the visualization clearly highlight times when there were blips in the system (when measures are missing). Frequent blips could highlight the need to upgrade infrastructure.
 
 _I visualized hourly pollution concentrations to analyze patterns over time_
 
