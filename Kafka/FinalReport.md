@@ -38,11 +38,15 @@ As the visual below shows, CO levels are highly correlated with benzene and NO l
 
 3. The Autocorrelation and Partial Autocorrelation plots can inform the modelling stage.
 
-As visuals below show, CO levels are most influenced by 
+As visuals below show, CO levels are most influenced by last 2 values. 
 
 ![newplot](https://github.com/user-attachments/assets/1d072a1f-5cc2-4470-9617-d96ade31058d)
 
+The partial autocorrelation plot shows the direct effect of lagged values.
 
+![newplot (1)](https://github.com/user-attachments/assets/3586883c-25c0-4f34-8acd-3fe8d4de9f86)
+
+The above 2 plots suggest that lagged values of degree 2 should be included when developing prediction models for CO. This will become clearer when we compare outcomes of basic modeling with real time modeling. The latter is able to predict much better as the highly relevant data of last 2 hours' CO levels are available here.
 
 
 ____
