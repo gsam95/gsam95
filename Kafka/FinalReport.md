@@ -23,17 +23,11 @@ Apache Kafka is a distributed event-streaming platform designed for high-through
 
 4. Start the Kafka server
 
-6. Create a Topic
+6. Create a Topic: Kafka topics are used to store events/messages
 
-Kafka topics are used to store events/messages
+7. Start a Producer: A producer sends messages (events) to a Kafka topic
 
-7. Start a Producer
-
-A producer sends messages (events) to a Kafka topic
-
-8. Start a Consumer
-
-A consumer reads messages from a Kafka topic. The consumer will display all messages sent by the producer in real time.
+8. Start a Consumer: A consumer reads messages from a Kafka topic. The consumer will display all messages sent by the producer in real time.
 
 Messages are sent from the producer and are received by the consumer.
 
