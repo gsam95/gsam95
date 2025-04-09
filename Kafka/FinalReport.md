@@ -10,7 +10,7 @@ Through this hands-on experience, I gained foundational knowledge of Apache Kafk
 
 ### **Kafka Setup Description**
 
-Apache Kafka is a distributed event-streaming platform designed for high-throughput, fault-tolerant, and real-time data processing. Setting up Kafka involves several steps to ensure its proper installation, configuration, and functioning. Below is a detailed description of the Kafka setup process:
+Apache Kafka is a distributed event-streaming platform designed for high-throughput, fault-tolerant, and real-time data processing. Setting up Kafka involves several steps to ensure its proper installation, configuration, and functioning. Below is an overview of the Kafka setup process:
 
 1. Prerequisites: Java Installation: Kafka requires Java to run
 
