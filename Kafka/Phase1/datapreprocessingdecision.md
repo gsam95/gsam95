@@ -33,6 +33,7 @@ Missing values in the numeric columns are handled using multiple strategies:
 - Fill with Column Mean: Any remaining missing values after forward and backward filling are replaced with the mean of the respective column. This provides a statistical approximation for missing data.
 
 5. Convert Datetime Column
+   
 The Datetime column is converted to a proper datetime format using pd.to_datetime(). Invalid datetime entries are coerced into NaT (Not a Time).
 
 Rows with invalid or missing datetime values (NaT) are dropped from the dataset to ensure clean indexing and time-based analysis.
