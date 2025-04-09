@@ -44,7 +44,7 @@ _Now that we have real time data streaming in, there are multiple ways to use. I
 
 #### 2. *Visualizing Patterns*
 
-Details of the EDA on the air quality data streamed from Kafka, focusing on understanding the temporal patterns in pollutant concentrations and relationships between different pollutants are documented in the [Final report](https://github.com/gsam95/gsam95/blob/main/Kafka/FinalReport.md).
+Details of the EDA on the air quality data streamed from Kafka, focusing on understanding the temporal patterns in pollutant concentrations and relationships between different pollutants are documented in the [Final Report](https://github.com/gsam95/gsam95/blob/main/Kafka/FinalReport.md).
 
 
 _Future Scope of Work_
@@ -60,7 +60,7 @@ _Here we took a consolidated snapshot of the streamed data and visualized it to 
 
 _**Deliverables**_
 
-1. [Final report](https://github.com/gsam95/gsam95/blob/main/Kafka/FinalReport.md) can be found here. It logs output for each phase
+1. [Final Report](https://github.com/gsam95/gsam95/blob/main/Kafka/FinalReport.md) can be found here. It logs output for each phase
 2. Other deliverables required for the assignment are linked in the corresponding section and subsection of this page
 
 
