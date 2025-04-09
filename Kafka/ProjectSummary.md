@@ -44,26 +44,8 @@ _Now that we have real time data streaming in, there are multiple ways to use. I
 
 #### 2. *Visualizing Patterns*
 
-Objective: Perform EDA on the air quality data streamed from Kafka, focusing on understanding the temporal patterns in pollutant concentrations and relationships between different pollutants.
+Details of the EDA on the air quality data streamed from Kafka, focusing on understanding the temporal patterns in pollutant concentrations and relationships between different pollutants are documented in the [Final report](https://github.com/gsam95/gsam95/blob/main/Kafka/FinalReport.md).
 
-Time Series Analysis Requirements:
-
-Analyze time-based patterns in the data
-Explore relationships between different pollutants
-Identify seasonality, trends, and anomalies
-Deliverables:
-
-Basic Visualizations (15 Points):
-Time-series plots of CO, NOx, and Benzene concentrations
-Daily/weekly patterns (average by hour of day, day of week)
-Correlation heatmap between different pollutants
-Advanced Visualizations (Optional - 5 Bonus Points):
-Autocorrelation and partial autocorrelation plots
-Decomposition of time series into trend, seasonality, and residuals
-Analysis Report:
-2-3 page report describing patterns you observed
-Analysis of potential factors influencing air quality variations
-Discussion of how your findings will inform your modeling approach
 
 _Future Scope of Work_
 
@@ -72,7 +54,7 @@ _Here we took a consolidated snapshot of the streamed data and visualized it to 
 [![image](https://github.com/user-attachments/assets/1b221f7f-4262-4f9f-a882-9e252095248a)](https://www.dreamstime.com/air-pollution-index-api-air-pollution-index-roadsign-electronic-screen-many-uses-environment-pollution-control-image109106661)
 
 
-
+#### 3. *Real time Predictions*
 
 
 
