@@ -41,6 +41,8 @@ Legend - CO: Carbon monoxide, measured in mg/m³ | NOx: Nitrogen oxides, measure
 
 _Now that we have real time data streaming in, there are multiple ways to use. In Phase 2 we visualize the streamed data. In Phase 3 we make hourly predictions to guide decisions._
 
+_Declaration: Since the objective here was to use Kafka, the EDA and Models are not state of the art. Focus and objective is to showcase Kafka integration. EDA and ML skills are showcased via other projects in the portfolio._
+
 
 #### 2. *Visualizing Patterns*
 
