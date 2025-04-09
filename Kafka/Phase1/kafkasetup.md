@@ -1,8 +1,9 @@
 **Log of Kafka Installation - That worked!**
-1. clear all logs (from tmp folder outside the main folder, and from the logs inside the kafka folder) 
+1. Clear all logs (from tmp folder outside the main folder, and from the logs inside the kafka folder) 
 2. In a bash window: cd D:/kafka_2.13-4.0.0
-3. create new meta properties file: bin/kafka-storage.sh format -t random -c config/kraft/server.properties --standalone
+3. Create new meta properties file: bin/kafka-storage.sh format -t random -c config/kraft/server.properties --standalone
 4. bin/kafka-server-start.sh config/server.properties
+5. Create kafka topic if not created
 
 NEW BASH WINDOW
 1. cd D:/Grace/CMU/Courses/Spring2025/OpAI/Assignment/1/
@@ -95,6 +96,6 @@ ERROR: No configuration found for '266474c2' at 'null' in 'null'
 - **Permissions**: Grant full write access to `C:\kafka` and subdirectories.  
 
 
-_Reference
+_Reference_
 
-Error summary log created using [Perplexity: pplx.ai/share](https://www.perplexity.ai/search/give-me-steps-to-start-my-kafk-lEo3enZZSout2R45kLsL2A)_
+_Error summary log created using [Perplexity: pplx.ai/share](https://www.perplexity.ai/search/give-me-steps-to-start-my-kafk-lEo3enZZSout2R45kLsL2A)_
