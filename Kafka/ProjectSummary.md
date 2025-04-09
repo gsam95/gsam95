@@ -56,7 +56,7 @@ _Here we took a consolidated snapshot of the streamed data and visualized it to 
 [![image](https://github.com/user-attachments/assets/1b221f7f-4262-4f9f-a882-9e252095248a)](https://www.dreamstime.com/air-pollution-index-api-air-pollution-index-roadsign-electronic-screen-many-uses-environment-pollution-control-image109106661)
 
 
-#### 3. [*Real-time Predictions*](https://github.com/gsam95/gsam95/tree/main/Kafka/Phase3) 
+#### 3. [**Real-time Predictions**](https://github.com/gsam95/gsam95/tree/main/Kafka/Phase3) 
 
 EDA in the previous section indicates there is a time relation in pollutant levels. This makes sense intuitively as well. We can thus assume that real-time predictions would be better than a static model that does not take into account most recent data.
 
