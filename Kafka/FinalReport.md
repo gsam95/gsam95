@@ -99,7 +99,7 @@ The feature engineering process involves creating new variables that capture mea
 
 1. Time-Based Features: Hourly, daily, and monthly patterns help capture temporal variations in pollutant levels
    
-These features are extracted from the `Datetime` index to capture temporal patterns in pollutant concentrations:
+These features are extracted from the Datetime index to capture temporal patterns in pollutant concentrations:
 
 - Hour: Represents the hour of the day (e.g., 0 to 23). It helps identify hourly variations in air quality.
 - Day: Represents the day of the month (e.g., 1 to 31). It can be used to analyze daily trends.
