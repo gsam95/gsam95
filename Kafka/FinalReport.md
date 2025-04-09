@@ -47,16 +47,3 @@ The partial autocorrelation plot shows the direct effect of lagged values.
 ![newplot (1)](https://github.com/user-attachments/assets/3586883c-25c0-4f34-8acd-3fe8d4de9f86)
 
 The above 2 plots suggest that lagged values of degree 2 should be included when developing prediction models for CO. This will become clearer when we compare outcomes of basic modeling with real time modeling. The latter is able to predict much better as the highly relevant data of last 2 hours' CO levels are available here.
-
-
-____
-
-Deliverables:
-
-Advanced Visualizations (Optional - 5 Bonus Points):
-
-Decomposition of time series into trend, seasonality, and residuals
-Analysis Report:
-2-3 page report describing patterns you observed
-Analysis of potential factors influencing air quality variations
-Discussion of how your findings will inform your modeling approach
