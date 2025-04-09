@@ -36,7 +36,7 @@ As the visual below shows, CO levels are highly correlated with benzene and NO l
 
    ![image](https://github.com/user-attachments/assets/ffc61629-3aa8-4af1-b276-1b81e03ee35d)
 
-3. The Autocorrelation and Partial Autocorrelation plots can inform the modelling stage.
+3. The Autocorrelation and Partial Autocorrelation plots also inform the modelling stage
 
 As visuals below show, CO levels are most influenced by last 2 values. 
 
