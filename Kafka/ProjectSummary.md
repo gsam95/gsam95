@@ -38,7 +38,19 @@ Legend - CO: Carbon monoxide, measured in mg/m³ | NOx: Nitrogen oxides, measure
 - [Data preprocessing decisions](https://github.com/gsam95/gsam95/blob/main/Kafka/Phase1/datapreprocessingdecision.md) documented here
 
 
-#### 2. []()
+
+_Now that we have real time data streaming in, there are multiple ways to use. In Phase 2 we visualize the streamed data. In Phase 3 we make hourly predictions to guide decisions._
+
+
+#### 2. *Visualizing Patterns*
+
+
+_Future Scope of Work_
+
+_Here we took a consolidated snapshot of the streamed data and visualized it to analyze patterns. A more real-time use case would be to visualize the data hourly (an example of this would be the screens that show pollution levels. In future, I'd like to integrate Kafka and make real time visualizations._
+
+![image](https://github.com/user-attachments/assets/1b221f7f-4262-4f9f-a882-9e252095248a)(https://www.dreamstime.com/air-pollution-index-api-air-pollution-index-roadsign-electronic-screen-many-uses-environment-pollution-control-image109106661)
+
 
 
 
