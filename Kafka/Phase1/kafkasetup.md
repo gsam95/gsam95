@@ -96,4 +96,5 @@ ERROR: No configuration found for '266474c2' at 'null' in 'null'
 
 
 _Reference
-Answer from Perplexity: pplx.ai/share_
+
+Error summary log created using [Perplexity: pplx.ai/share](https://www.perplexity.ai/search/give-me-steps-to-start-my-kafk-lEo3enZZSout2R45kLsL2A)_
