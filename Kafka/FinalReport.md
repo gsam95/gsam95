@@ -6,7 +6,7 @@ Perform EDA on the air quality data streamed from Kafka, focusing on understandi
 
 **Time Series Analysis**
 
-[Code used to generate the visuals below is here]()
+[Code used to generate the visuals below is here](https://github.com/gsam95/gsam95/blob/main/Kafka/Phase2.ipynb)
 
 For the purpose of this assignment, we focused on  CO, NOx, and Benzene concentrations.
 
@@ -31,8 +31,16 @@ _I also visualized the average hourly and day-of-the-week levels to see if there
   ![newplot](https://github.com/user-attachments/assets/e37cfa75-da5c-4f0d-97cb-5862a8f6cf66)
 
 2. I also explored the relationship between different pollutants. This could inform variable selection in the modeling phase.
-   
-3. Identify seasonality, trends, and anomalies
+
+As the visual below shows, CO levels are highly correlated with benzene and NO levels
+
+   ![image](https://github.com/user-attachments/assets/ffc61629-3aa8-4af1-b276-1b81e03ee35d)
+
+3. The Autocorrelation and Partial Autocorrelation plots can inform the modelling stage.
+
+As visuals below show, CO levels are most influenced by 
+
+![newplot](https://github.com/user-attachments/assets/1d072a1f-5cc2-4470-9617-d96ade31058d)
 
 
 
@@ -41,12 +49,8 @@ ____
 
 Deliverables:
 
-Basic Visualizations (15 Points):
-Time-series plots of
-Daily/weekly patterns (average by hour of day, day of week)
-Correlation heatmap between different pollutants
 Advanced Visualizations (Optional - 5 Bonus Points):
-Autocorrelation and partial autocorrelation plots
+
 Decomposition of time series into trend, seasonality, and residuals
 Analysis Report:
 2-3 page report describing patterns you observed
