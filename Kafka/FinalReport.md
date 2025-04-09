@@ -86,7 +86,7 @@ The partial autocorrelation plot shows the direct effect of lagged values.
 _____________________________________________________________________________________________________________________________________________________________
 
 
-### Phase 3: Air Quality Prediction Model
+### [Phase 3: Air Quality Prediction Model](https://github.com/gsam95/gsam95/tree/main/Kafka/Phase3)
 
 **Objective** 
 
@@ -173,7 +173,7 @@ The low MAE value (0.11) indicates that the model provides highly accurate predi
 The RMSE value (0.16) reinforces this conclusion, showing that larger errors are rare and well-controlled.
 
 
-### **Integration with Kafka**
+### [**Real-time Prediction: Integration with Kafka**](https://github.com/gsam95/gsam95/tree/main/Kafka/Phase3/RealTimePrediction)
 
 The developed mechanism integrates the trained machine learning model (XGBoost regressor) with a Kafka consumer pipeline to enable real-time predictions of pollutant concentrations. The process involves consuming environmental data streams from Kafka, preprocessing the data, and generating predictions using the trained model. 
 
