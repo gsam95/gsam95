@@ -1,4 +1,8 @@
+[**Learning Kafka**](https://github.com/gsam95/gsam95/tree/main/Kafka)
+
 This mini-project was done as part of my Operationalizing AI class with Professor Anand Rao at Carnegie Mellon University.
+
+[Final report](https://github.com/gsam95/gsam95/blob/main/Kafka/FinalReport.md) can be found here. Below is summary of the context and project phases.
 
 
 **Objective**
