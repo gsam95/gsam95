@@ -4,7 +4,7 @@ Missing data flows as -200 in the data set. Below is a summary of the decisions 
 
 The steps could have been implemented at the consumer stage, but a conscious decision was made to retain original data till visualization stage to identify times when sensors were down. 
 
-_Data Cleaning Steps_
+### _Data Cleaning Steps_
 
 1. Numeric Columns are identified
 The columns CO(GT), NOx(GT), and C6H6(GT) are identified as numeric columns that require cleaning.
