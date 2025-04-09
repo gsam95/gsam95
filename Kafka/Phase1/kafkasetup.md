@@ -16,7 +16,7 @@ NEW BASH WINDOW
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Log of Kafka Installation/Setup Issues & Solutions**
+**Log of Kafka Installation/Setup Issues**
 
 **1. Initial Setup & Configuration**
 **Query**: Steps to start Kafka server on Windows (KRaft mode) via PowerShell.   
