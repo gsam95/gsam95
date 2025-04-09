@@ -10,7 +10,7 @@ I show hands-on experience with Apache Kafka for real-time data streaming and ut
 
 As urbanization accelerates, monitoring and predicting air quality has become increasingly critical for public health management and urban planning. High concentrations of air pollutants like CO, NOx, and Benzene can significantly impact respiratory health and overall quality of life. Real-time air quality data analysis is essential for providing timely air quality alerts, optimizing traffic flow to reduce emissions, and informing policy decisions.
 
-I use (UCI Air Quality dataset)[https://archive.ics.uci.edu/ml/datasets/Air+Quality].
+I use [UCI Air Quality dataset](https://archive.ics.uci.edu/ml/datasets/Air+Quality).
 
 _Dataset Description_
 
