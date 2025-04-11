@@ -35,7 +35,7 @@ Coming Up Soon - Hackathon | Scopeathon | RIDC | [Data Visualization & Storytell
 <br/>
 <br/>
 
-## [Relevant Coursework: Academic Training]](https://gsam95.github.io/gsam95/plot.html)
+## [Relevant Coursework: Academic Training](https://gsam95.github.io/gsam95/plot.html)
 
 <br/>
 <br/>
