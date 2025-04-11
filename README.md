@@ -27,12 +27,10 @@ Hi, I’m Grace! I’m an economist turned data scientist, passionate about usin
 
 
 ## Project Repository
-| [GIS](https://gsam95.github.io/gsam95/ProjectGIS.html) | [Data Visualization & Storytelling with Data](/Projects/EDA) | [Innovation](https://gsam95.github.io/gsam95/ProjectInnovation.html) | [LLMs & Agent Based Modeling](/Projects/LLMs) | [Machine Learning](/Projects/ML) | [Kafka](https://gsam95.github.io/gsam95/ProjectAssgnKafka.html) | [Policy Analysis & Writing](https://gsam95.github.io/gsam95/ProjectPolicyAnalysis.html) | [Pythonic Coding]() |
+| [GIS](https://gsam95.github.io/gsam95/ProjectGIS.html) | [Innovation](https://gsam95.github.io/gsam95/ProjectInnovation.html) | [Kafka](https://gsam95.github.io/gsam95/ProjectAssgnKafka.html) | [Policy Analysis & Writing](https://gsam95.github.io/gsam95/ProjectPolicyAnalysis.html) | 
 
 
-Hackathon
-Scopeathon
-RIDC
+Coming Up Soon - Hackathon | Scopeathon | RIDC | [Data Visualization & Storytelling with Data](/Projects/EDA) |  [LLMs & Agent Based Modeling](/Projects/LLMs) | [Machine Learning](/Projects/ML) | [Pythonic Coding]() |
 
 <br/>
 <br/>
