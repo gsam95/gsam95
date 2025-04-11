@@ -39,5 +39,6 @@ Coming Up Soon - Hackathon | Scopeathon | RIDC | [Data Visualization & Storytell
 
 <br/>
 <br/>
+[![Interactive Plot](thumbnail.png)](https://gsam95.github.io/gsam95/plot.html)
 
 
