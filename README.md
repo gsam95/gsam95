@@ -35,10 +35,11 @@ Coming Up Soon - Hackathon | Scopeathon | RIDC | [Data Visualization & Storytell
 <br/>
 <br/>
 
-## Relevant Coursework: Academic Training
+## [Relevant Coursework: Academic Training]](https://gsam95.github.io/gsam95/plot.html)
 
 <br/>
 <br/>
-[![Interactive Plot](thumbnail.png)](https://gsam95.github.io/gsam95/plot.html)
+![newplot](https://github.com/user-attachments/assets/84747603-fc2a-4094-a675-ca6d766ea490)
+
 
 
