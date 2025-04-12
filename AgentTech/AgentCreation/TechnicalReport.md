@@ -105,7 +105,7 @@ The AI financial portfolio rebalancer was built using LangChain’s agent framew
 
 <br>
 
-## 3. Analysis of LLM Strengths and Weaknesses for Financial Tasks
+## 3. [Analysis of LLM Strengths and Weaknesses for Financial Tasks](https://github.com/gsam95/gsam95/blob/main/AgentTech/AgentCreation/ComparativeAnalysis.md)
 
 Based on the test results, each LLM demonstrates unique strengths and weaknesses for financial portfolio analysis tasks.
 
