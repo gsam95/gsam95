@@ -32,7 +32,7 @@ Hi, I’m Grace! I’m an economist turned data scientist, passionate about usin
 <br/>
 <br/>
 
-Coming Up Soon - Hackathon | Scopeathon | RIDC | [Data Visualization & Storytelling with Data](/Projects/EDA) |  (/Projects/LLMs) | [Machine Learning](/Projects/ML) | [Pythonic Coding]() |
+Coming Up Soon - | Hackathon | Scopeathon | RIDC | [Data Visualization & Storytelling with Data](/Projects/EDA) |  (/Projects/LLMs) | [Machine Learning](/Projects/ML) | [Pythonic Coding]() |
 
 <br/>
 <br/>
