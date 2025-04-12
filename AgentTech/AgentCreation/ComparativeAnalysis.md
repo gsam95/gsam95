@@ -28,10 +28,6 @@ We used the LLMs (OpenAI GPT4, Groq LLaMA3-8B, Groq LLaMA3-70B) in various portf
 |                                                                             | Groq LLaMA3-8B | The portfolio should be rebalanced by adding traditional stocks, such as Apple (AAPL), to diversify the risk.                                                                            | Correctly identified in edge case   | 14.00                          | Basic                                                                      | Good                        |
 |                                                                             | Groq LLaMA3-70B | The portfolio is currently balanced, but it's not diversified. I recommend adding more assets to the portfolio to reduce risk. Consider adding other assets such as stocks or bonds to create a more diversified portfolio.                                                                             | Correctly identified in edge case + better explanation   | 24.09                          | Basic                                                                      | Nice                        |
 
-### Key Observations:
 
-*   **OpenAI GPT-4:** Demonstrated a higher degree of accuracy but often came with significantly longer response times and higher cost.  It has an ability to accurately identify balanced portfolios. It's generally a good decision tool.
-*   **Groq LLaMA3-8B:** Excellent in handling basic tasks at very low latency. It mostly understood the tasks but it often fails the given test by not following through completely.
-*   **Groq LLaMA3-70B:** Best balance between speed, quality, and cost efficiency. This model correctly identified the edge cases + gave a better explanation and provided similar accuracy and speed to OpenAI. However, it struggled more in cases that required using other tools. Overall a nice LLM
 
-***Disclaimer:** Actual results may vary depending on the specific implementation, prompt engineering, and underlying infrastructure.*
+LLaMA3-8B model is the best in understanding larger context and task and purpose, and using the right tools, though it failed due to iteration limits. If this issue could be resolved, I would choose LLaMA3-8B model. LLaMA3-70B offers a solid tradeoff of speed and cost for real-time analysis and could be ranked second.
