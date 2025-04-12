@@ -127,7 +127,12 @@ LLaMA3-8B model is the best in understanding larger context and task and purpose
 
 ## 4. Recommendations for Financial Analysis Scenarios
 
-[To be added - Section on recommendations goes here]
+| **Scenario**               | **Recommended LLM** | **Rationale**                                              |
+|-----------------------------|---------------------|------------------------------------------------------------|
+| High-Stakes Rebalancing     | Groq LLaMA3-8B      | Accuracy and nuanced reasoning critical for large portfolios. |
+| Real-Time Analysis          | Groq LLaMA3-70B     | Speed and reliability for time-sensitive decisions.         |
+| Simple Portfolios           | Groq LLaMA3-8B      | Cost-effective for basic checks (e.g., 2–3 assets).         |
+| Educational Use             | Groq LLaMA3-70B     | Balances speed and clarity for student use cases.           |
 
 <br>
 
