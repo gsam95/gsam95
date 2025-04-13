@@ -111,7 +111,7 @@ Based on the test results, each LLM demonstrates unique strengths and weaknesses
 
 *   **OpenAI GPT-4**
     *   Strengths: OpenAI's GPT-4 is basic in tool selection and quality of advice. It mostly accurately calculated portfolio rebalancing actions and identified balanced portfolios.
-    *   Weaknesses: In some edge cases (e.g., a portfolio consisting solely of Bitcoin), GPT-4 struggled to understand the broader context, leading to less useful recommendations. The cost per query is also higher.
+    *   Weaknesses: In some edge cases (e.g., a portfolio consisting solely of Bitcoin), GPT-4 struggled to understand the broader context, leading to less useful recommendations. 
 
 *   **Groq LLaMA3-8B**
     *   Strengths: The Groq LLaMA3-8B model offers low latency, making it suitable for rapid analysis and real-time applications. It was the only model that did best in context understanding (albeit in only one case) where it correctly used the other tools in combination with the primary rebalancing tool. It could correctly identify even the edge case.
