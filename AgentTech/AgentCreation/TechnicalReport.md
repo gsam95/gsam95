@@ -118,7 +118,7 @@ Based on the test results, each LLM demonstrates unique strengths and weaknesses
     *   Weaknesses: The model stopped due to iteration or time limits. Seems it lacks the reliability to be deployed for critical financial decisions.
 
 *   **Groq LLaMA3-70B**
-    *   Strengths: This model strikes a balance between speed and accuracy, delivering responses faster than GPT-4 while maintaining a better level of correctness. It even identified the edge case correctly. The action plan is also relatively easy to interpret
+    *   Strengths: This model strikes a balance between speed and accuracy, delivering responses faster than GPT-4 while maintaining a better level of correctness. It even identified the edge case correctly. 
     *   Weaknesses: In the almost balanced case, it failed to use other tools before making a recommendation.
 
 LLaMA3-8B model is the best in understanding larger context and task and purpose, and using the right tools, though it failed due to iteration limits. If this issue could be resolved, I would choose LLaMA3-8B model. LLaMA3-70B offers a solid tradeoff of speed and cost for real-time analysis and could be ranked second.
