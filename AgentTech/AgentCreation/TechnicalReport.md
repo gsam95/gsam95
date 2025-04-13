@@ -32,7 +32,7 @@ By combining these skills, I created a tool that automates portfolio analysis an
 
 <br>
 
-## 1. Implementation Details
+## 1. [Implementation Details](https://github.com/gsam95/gsam95/blob/main/AgentTech/AgentCreation/Code_Revised-vf.ipynb)
 
 The AI financial portfolio rebalancer was built using LangChain’s agent framework, integrating three core tools for real-time data analysis and decision-making:
 
