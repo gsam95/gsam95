@@ -1,12 +1,12 @@
 ## Comparative Analysis of LLMs for Portfolio Rebalancing
 
-This section presents a comparative analysis of different Large Language Models (LLMs) used in our AI financial portfolio rebalancer.  We evaluated OpenAI GPT-4, Groq LLaMA3-8B, and Groq LLaMA3-70B across various portfolio scenarios, measuring response accuracy, latency, tool selection efficiency, and the quality of financial advice.
+This section presents a comparative analysis of different Large Language Models (LLMs) used in the AI financial portfolio rebalancer.  I evaluated OpenAI GPT-4, Groq LLaMA3-8B, and Groq LLaMA3-70B across various portfolio scenarios, measuring response accuracy, latency, tool selection efficiency, and the quality of financial advice.
 
 For each test, the LLM was given a portfolio and asked to provide rebalancing recommendations.
 
 ### Test Methodology
 
-We used the LLMs (OpenAI GPT4, Groq LLaMA3-8B, Groq LLaMA3-70B) in various portfolios, and recorded key metrics.  A summary of each follows:
+I used the LLMs (OpenAI GPT4, Groq LLaMA3-8B, Groq LLaMA3-70B) in various portfolios, and recorded key metrics.  A summary of each follows:
 
 ### Performance Summary
 
